@@ -1,0 +1,12 @@
+{% if block.title %}
+  <h2 class="uk-heading-medium uk-text-serif uk-margin-remove uk-text-center">{{ block.title }}</h2>
+{% endif %}
+<div class="uk-text-center uk-grid-large uk-child-width-expand@m" data-uk-grid>
+  {% for process in block.processes %}
+    <div>
+      <div class="uk-heading-small uk-margin-large-top">{{ forloop.index }}</div>
+      <h4 class="uk-text-uppercase uk-text-spacing">{{ process.title }}</h4>
+      <div class="uk-text-smaller uk-text-light uk-margin-medium-top">{{ process.content }}</div>
+    </div>
+  {% endfor %}
+</div>

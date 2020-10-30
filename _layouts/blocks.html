@@ -1,0 +1,53 @@
+---
+layout: default
+---
+
+{% for block in page.blocks %}
+  <section class="uk-section-xlarge uk-section-{% if block.style %}{{block.style}}{% else %}{% if page.background contains '#' %}default{% else %}{{ page.background }}{% endif %}{% if page.color == 'light' %} uk-light{% endif %}{% endif %}{% if block.height == 'full' %} uk-flex uk-flex-middle{% endif %}" 
+  {% if block.height == 'full' %} data-uk-height-viewport{% endif %}>
+    <div class="uk-width-1-1">
+      {% if block.width %}
+        <div class="{% if block.width %}uk-container uk-container-{{ block.width | default: 'default' }}{% endif %}">
+      {% endif %}
+        {% include block-{{ block.block }}.html %}
+      {% if block.width %}
+      </div>
+      {% endif %}
+    </div>
+  </section>
+{% endfor %}
+
+{% if page.collection == 'projects' %}
+  <section class="uk-section-xlarge uk-section-{{page.background | default: 'default'}}">
+    <h2 class="uk-hidden">Pagination</h2>
+    <div class="uk-container uk-container-small{% if page.color == 'light' %} uk-light{% endif %}">
+      {% assign docs = site.projects | sort: 'date' %}
+      {% for document in docs %}
+        {% assign document_url = document.url %}
+        {% if document.url == page.url %}
+          <div class="">
+              <div class="uk-child-width-expand@s uk-grid-large uk-pagi" data-uk-grid>
+                  <div>
+                      {% if forloop.first %}
+                      {% else %}
+                        {% assign previous = forloop.index0 | minus: 1 %}
+                        {% assign previous_page = docs[previous] %}
+                          <div><a class="uk-link-no-underline" href="{{previous_page.url}}"><div class="uk-margin-small-right uk-margin-small-bottom uk-text-uppercase uk-text-spacing uk-h6 uk-color-inherit">&larr; {{ site.data.translation[site.lang].previous | default: "Previous" }}</div><span class="uk-text-serif uk-h3 uk-color-inherit">{{previous_page.title}}</span></a></div>
+                      {% endif %}
+                  </div>
+                  <div>
+                      {% if forloop.last %}
+                      {% else %}
+                        {% assign next = forloop.index0 | plus: 1 %}
+                        {% assign next_page = docs[next] %}
+                          <div class="uk-text-right@s"><a class="uk-link-no-underline" href="{{next_page.url}}"><div class="uk-margin-small-left uk-margin-small-bottom uk-text-uppercase uk-text-spacing uk-h6 uk-color-inherit">{{ site.data.translation[site.lang].next | default: "Next" }} &rarr;</div><span class="uk-text-serif uk-h3 uk-color-inherit">{{next_page.title}}</span></a></div>
+                      {% endif %}
+                  </div>
+              </div>
+          </div>
+          {% break %}
+        {% endif %}
+      {% endfor %}
+    </div>
+  </section>
+{% endif %}

@@ -1,0 +1,26 @@
+
+{% if block.title %}
+<h2 class="uk-heading-medium uk-text-serif uk-margin-remove uk-text-center">{{ block.title }}</h2>
+{% endif %}
+
+<div class="uk-margin-large-top" data-uk-slider="center: true; autoplay: true; autoplay-interval: 4000" tabindex="-1">
+  <div class="uk-position-relative">
+    <div class="uk-visible-toggle uk-slider-container">
+      <ul class="uk-slider-items uk-grid uk-grid-match">
+        {% for item in site.data.testimonials %}
+          <li class="uk-width-1-1 uk-text-center">
+              <div class="uk-heading-xlarge uk-text-serif uk-testimonial-quote">“</div>
+              <h3 class="uk-h1 uk-text-serif uk-line-small">{{item.content}}</h3>
+              <div class="uk-margin-top">
+                <img class="uk-border-circle" src="{% if item.image contains 'http' %}{{ item.image }}{% else %}{{ item.image | absolute_url }}{% endif %}" alt="{{ item.name }}">
+              </div>
+              <div class="uk-text-500 uk-margin-top uk-text-uppercase uk-text-spacing-small">{{item.name}}</div>
+              <div class="uk-text-uppercase uk-text-spacing-small uk-text-xsmall uk-text-500 uk-margin-small-top">{{item.title}}</div>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <a class="uk-position-center-left-out uk-visible@m" href="#" data-uk-slidenav-previous data-uk-slider-item="previous"></a>
+    <a class="uk-position-center-right-out uk-visible@m" href="#" data-uk-slidenav-next data-uk-slider-item="next"></a>
+  </div>
+</div>

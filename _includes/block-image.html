@@ -1,0 +1,9 @@
+
+<div class="uk-child-width-1-{{block.columns | default: '1'}}@m" data-uk-grid="masonry: true">
+  <h2 class="uk-hidden">Gallery</h2>
+  {% for image in block.images %}
+  <div>
+    <img src="{% if image contains '#' %}{{ image }}{% else %}{{ image | absolute_url }}{% endif %}" alt="Image">
+  </div>
+  {% endfor %}
+</div>

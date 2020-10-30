@@ -1,0 +1,9 @@
+{% if block.title %}
+  <h2 class="uk-heading-small uk-text-serif uk-margin-remove uk-text-center">{{ block.title }}</h2>
+  {% endif %}
+{% if block.content %}
+  <div class="uk-text-center uk-width-1-1 uk-line-small uk-text-serif uk-h2{% if block.title %} uk-margin-medium-top{% endif %}">{{block.content | markdownify}}</div>
+{% endif %}
+{% if block.button.url %}
+  <div class="uk-text-center uk-margin-large-top"><a class="uk-button uk-button-default uk-border-pill uk-button-width-medium" href="{% if block.button.url contains 'http' %}{{ block.button.url }}{% else %}{{ block.button.url | relative_url }}{% endif %}">{{ block.button.text }}</a></div>
+{% endif %}

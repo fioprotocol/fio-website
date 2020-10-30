@@ -1,0 +1,87 @@
+---
+title:                    FIO
+tagline: 
+description:              Foundation for Interwallet Operability
+url: 
+baseurl: 
+lang:                     en
+logo: 
+logo_light: 
+permalink:                "/:title/"
+
+author:
+  email:                  info@blacompany.com
+  phone:                  +1-800-354-3434
+  address:                2030 West River St. <br> New York 52304
+
+favicon:                   https://via.placeholder.com/16
+
+navbar:
+  sticky:                 true
+  
+footer:
+  background:             secondary
+  social:                 true
+  address:                true
+  phone:                  true
+  email:                  true
+  copyright:              "&copy; 2020 FIO"
+
+google_analytics:         GTM-WWSZ8NR
+
+social_networks:
+  facebook:               
+  flickr: 
+  dribbble: 
+  github: 
+  instagram:              
+  linkedin: 
+  pinterest: 
+  twitter: 
+  vimeo: 
+  youtube: 
+
+markdown:                 kramdown
+highlighter:              rouge
+plugins:
+- jekyll-seo-tag
+
+exclude:
+- vendor
+- ".bundle"
+- ".sass-cache"
+- ".jekyll-cache"
+- config
+- Gemfile
+- Gemfile.lock
+- node_modules
+- log
+- tmp
+- Rakefile
+- package.json
+- package-lock.json
+- CHANGELOG
+- LICENSE
+- README
+- "/docs"
+- "/assets/js/custom.js"
+
+sass:
+  style:                  compressed
+
+livereload:               true
+
+# collections:
+#   collection_name:
+#     output: true
+# defaults:
+# - scope:
+#     path: ''
+#     type: collection_name
+#   values:
+#     layout: collection_name
+# - scope:
+#     path: ''
+#     type: pages
+#   values:
+#     layout: 
