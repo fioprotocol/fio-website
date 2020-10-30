@@ -1,23 +1,51 @@
-<footer class="uk-section-xlarge uk-section-{{site.footer.background | default: 'secondary'}}">
-  <div class="uk-container">
-    <div class="uk-grid-large" data-uk-grid>
-      <div class="uk-width-1-2@m uk-flex uk-flex-column">
-        <ul class="uk-list uk-text-small uk-h2 uk-margin-large-bottom">
-          {% for link in site.data.footer %}
-            {% if link.url contains 'http' %}
-              {% assign domain = '' %}
-            {% else %}
-              {% assign domain = '' | relative_url %}
-            {% endif %}
-            {% if link.url == page.url %}
-              {% assign current = ' class="uk-active"' %}
-            {% else %}
-              {% assign current = null %}
-            {% endif %}
-            {% if link.title %}
-              <li{{ current }}><a class="uk-h1 uk-text-serif" href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank" rel="noopener" {% endif %}>{{ link.title }}</a></li>
-            {% endif %}
-          {% endfor %}
+<footer class="footer">
+  <div class="container">
+    <div class="footer__inner row">
+      {% for column in site.data.footer %}
+        <div class="col-12 col-md-3">
+          <h4>{{column.heading}}</h4>
+          <ul>
+            {% for link in column.links %}
+              {% if link.url contains 'http' %}
+                {% assign domain = '' %}
+              {% else %}
+                {% assign domain = '' | relative_url %}
+              {% endif %}
+              {% if link.title %}
+                <li>
+                  <a href="{{ domain }}{{ link.url }}"{% if link.blank %} target="_blank" rel="noopener" {% endif %}>
+                    <i class="ico-arrow-right">
+                      <svg>
+                        <use xlink:href="#ico-arrow-right"></use>
+                      </svg>
+                    </i>
+                    {{ link.title }}
+                  </a>
+                </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
+      {% endfor %}
+    </div><!-- /.footer__inner -->
+
+    <div class="footer__bar">
+      <ul id="menu-sub-footer-menu" class="list-links">
+        <li id="menu-item-449" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-449"><a
+            href="{{ site.footer.link.url | relative_url }}">{{ site.footer.link.title }}</a></li>
+      </ul>
+      <p class="copyright">{{ site.footer.copyright }}</p><!-- /.copyright -->
+    </div><!-- /.footer__bar -->
+  </div><!-- /.container -->
+</footer><!-- /.footer -->
+
+
+
+
+
+
+
+
         </ul>
         <div class="uk-margin-auto-top">
           <a class="uk-logo uk-link-muted" href="{{ "/" | relative_url }}">
@@ -52,7 +80,7 @@
           </div>
         {% endif %}
         {% if site.footer.copyright %}
-          <div class="uk-margin-large-top uk-text-xsmall uk-text-muted uk-link-muted">{{ site.footer.copyright }}</div>
+          <div class="uk-margin-large-top uk-text-xsmall uk-text-muted uk-link-muted"></div>
         {% endif %}
       </div>
     </div>

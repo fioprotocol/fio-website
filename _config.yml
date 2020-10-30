@@ -19,12 +19,10 @@ navbar:
   sticky:                 true
   
 footer:
-  background:             secondary
-  social:                 true
-  address:                true
-  phone:                  true
-  email:                  true
   copyright:              "&copy; 2020 FIO"
+  link:
+    title:                Privacy Policy
+    url:                  /privacy-policy/
 
 google_analytics:         GTM-WWSZ8NR
 

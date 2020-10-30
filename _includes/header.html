@@ -202,11 +202,6 @@
               {% else %}
                 {% assign domain = '' | relative_url %}
               {% endif %}
-              {% if link.url == page.url %}
-                {% assign current = ' class="uk-active"' %}
-              {% else %}
-                {% assign current = null %}
-              {% endif %}
               {% if link.title %}
                 <li class="menu-item{% if link.dropdown != null %} menu-item-has-children has--dropdown{% endif %}">
                   {% if link.url %}
@@ -222,11 +217,6 @@
                             {% assign domain = '' %}
                           {% else %}
                             {% assign domain = '' | relative_url %}
-                          {% endif %}
-                          {% if child.url == page.url %}
-                            {% assign current = ' class="uk-active"' %}
-                          {% else %}
-                            {% assign current = null %}
                           {% endif %}
                           <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="{{ domain }}{{ child.url }}"{% if child.blank %} target="_blank" rel="noopener" {% endif %}>{{ child.title }}</a></li>
                         {% else %}
