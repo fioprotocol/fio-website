@@ -5,8 +5,7 @@ description:              Foundation for Interwallet Operability
 url: 
 baseurl: 
 lang:                     en
-logo: 
-logo_light: 
+logo:                     /assets/img/logo.png
 permalink:                "/:title/"
 
 author:
