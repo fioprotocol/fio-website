@@ -11031,7 +11031,7 @@ ol:last-child {
 	Sprite
 \* ------------------------------------------------------------ */
 .ico-alert {
-  background-image: url(../images/sprite.png);
+  background-image: url(../img/sprite.png);
   background-position: 0% 0%;
   background-size: 203.4482758621% 188.8888888889%;
   width: 29px;
@@ -11042,7 +11042,7 @@ ol:last-child {
 }
 
 .ico-discord {
-  background-image: url(../images/sprite.png);
+  background-image: url(../img/sprite.png);
   background-position: 0% 100%;
   background-size: 310.5263157895% 255%;
   width: 19px;
@@ -11053,7 +11053,7 @@ ol:last-child {
 }
 
 .ico-send-lg {
-  background-image: url(../images/sprite.png);
+  background-image: url(../img/sprite.png);
   background-position: 100% 0%;
   background-size: 226.9230769231% 204%;
   width: 26px;
@@ -11064,7 +11064,7 @@ ol:last-child {
 }
 
 .ico-send {
-  background-image: url(../images/sprite.png);
+  background-image: url(../img/sprite.png);
   background-position: 58.9743589744% 91.1764705882%;
   background-size: 295% 300%;
   width: 20px;
@@ -11076,7 +11076,7 @@ ol:last-child {
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .ico-alert {
-    background-image: url(../images/sprite.@2x.png);
+    background-image: url(../img/sprite.@2x.png);
     background-position: 0% 0%;
     background-size: 203.4482758621% 188.8888888889%;
     width: 29px;
@@ -11087,7 +11087,7 @@ ol:last-child {
   }
 
   .ico-discord {
-    background-image: url(../images/sprite.@2x.png);
+    background-image: url(../img/sprite.@2x.png);
     background-position: 0% 100%;
     background-size: 310.5263157895% 255%;
     width: 19px;
@@ -11098,7 +11098,7 @@ ol:last-child {
   }
 
   .ico-send-lg {
-    background-image: url(../images/sprite.@2x.png);
+    background-image: url(../img/sprite.@2x.png);
     background-position: 100% 0%;
     background-size: 226.9230769231% 204%;
     width: 26px;
@@ -11109,7 +11109,7 @@ ol:last-child {
   }
 
   .ico-send {
-    background-image: url(../images/sprite.@2x.png);
+    background-image: url(../img/sprite.@2x.png);
     background-position: 58.9743589744% 91.1764705882%;
     background-size: 295% 300%;
     width: 20px;
@@ -11231,7 +11231,7 @@ ol:last-child {
   left: 0;
   right: 0;
   height: 268px;
-  background: url("../images/footer.png") repeat-x 0 0;
+  background: url("../img/footer.png") repeat-x 0 0;
   background-size: cover;
   z-index: -1;
 }
@@ -12413,7 +12413,7 @@ input:-webkit-autofill {
   width: 9px;
   height: 5px;
   margin: 0;
-  background: url("../images/ico-arrow.svg") no-repeat 0 0;
+  background: url("../img/ico-arrow.svg") no-repeat 0 0;
   background-size: cover;
   border: 0;
 }
@@ -12842,7 +12842,7 @@ input:-webkit-autofill {
   flex-direction: column;
   width: 78px;
   height: 84px;
-  background: url("../images/purple-penthagon.png") no-repeat 0 0;
+  background: url("../img/purple-penthagon.png") no-repeat 0 0;
   background-size: cover;
   color: #fff;
   font-size: 20px;
