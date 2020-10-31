@@ -1,6 +1,6 @@
 ---
-layout: home
-title: Foundation for Interwallet Operability
+layout: getting-started
+title: Getting Started
 
 intro:
 

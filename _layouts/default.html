@@ -3,10 +3,7 @@
 
   {% include head.html %}
 
-  <body
-    class="{% unless page.background contains '#' %}uk-background-{{ page.background }}{% endunless %}" 
-    style="{% if page.background contains '#' %}background-color: {{ page.background }};{% endif %}"  
-  >
+  <body>
 
     {% if site.google_analytics %}
       <!-- Google Tag Manager (noscript) -->
@@ -77,11 +74,17 @@
   
       {% include header.html %}
 
-      {% if page.layout == 'blocks' %}
-        {{ content }}
-      {% else %}
-        {{ content }}
-      {% endif %}
+      <main class="main">
+        {% unless page.layout == 'home' %}
+          {% include block-intro.html %}
+        {% endunless %}   
+
+        {{ content }}  
+
+        {% include block-callout.html %}
+      </main>
+
+
 
       {% include footer.html %}
 
