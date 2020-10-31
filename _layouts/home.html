@@ -88,76 +88,39 @@ layout: default
 <section class="section section--blue-gradient">
   <div class="section__inner">
     <div class="container">
-
-
-
       <header class="section__head">
-        <h1 class="section__title">Integrate the FIO Protocol</h1><!-- /.section__title -->
+        <h1 class="section__title">{{page.integrate.heading}}</h1><!-- /.section__title -->
 
-        <p>Make your users' lives easier by improving usability</p>
+        <p>{{page.integrate.description}}</p>
       </header><!-- /.section__head -->
 
       <div class="section__body">
         <div class="services row no-gutters">
-          <div class="service col-md-6 col-lg-4">
-            <div class="service__image">
-              <img src="{{ '/assets/img/feature-image1.png' | absolute_url }}" alt=""
-                data-pagespeed-url-hash="2453339272"
-                onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-            </div><!-- /.service__image -->
+          {% for item in page.integrate.cards %}
+            <div class="service col-md-6 col-lg-4">
+              <div class="service__image">
+                <img src="{{ item.image| absolute_url }}" alt=""
+                  data-pagespeed-url-hash="2453339272"
+                  onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+              </div><!-- /.service__image -->
 
-            <div class="service__content">
-              <div class="service__head">
-                <h4 class="service__title">Reduce Customer Service Issues</h4><!-- /.service__title -->
-              </div><!-- /.service__head -->
+              <div class="service__content">
+                <div class="service__head">
+                  <h4 class="service__title">{{item.heading}}</h4><!-- /.service__title -->
+                </div><!-- /.service__head -->
 
-              <div class="service__entry">
-                <p>Eliminate mistakes in sending and receiving crypto and focus on your core product</p>
-              </div><!-- /.service__entry -->
-            </div><!-- /.service__content -->
-          </div><!-- /.service col-md-6 col-lg-4 -->
-
-          <div class="service col-md-6 col-lg-4">
-            <div class="service__image">
-              <img src="{{ '/assets/img/feature-image2.png' | absolute_url }}" alt=""
-                data-pagespeed-url-hash="2747839193"
-                onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-            </div><!-- /.service__image -->
-
-            <div class="service__content">
-              <div class="service__head">
-                <h4 class="service__title">Create New Experiences</h4><!-- /.service__title -->
-              </div><!-- /.service__head -->
-
-              <div class="service__entry">
-                <p>Don't be limited to hard-to-use user flows - automate the pain away</p>
-              </div><!-- /.service__entry -->
-            </div><!-- /.service__content -->
-          </div><!-- /.service col-md-6 col-lg-4 -->
-
-          <div class="service col-md-6 col-lg-4">
-            <div class="service__image">
-              <img src="{{ '/assets/img/feature-image3.png' | absolute_url }}" alt=""
-                data-pagespeed-url-hash="3042339114"
-                onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-            </div><!-- /.service__image -->
-
-            <div class="service__content">
-              <div class="service__head">
-                <h4 class="service__title">Support Blockchain Usability</h4><!-- /.service__title -->
-              </div><!-- /.service__head -->
-
-              <div class="service__entry">
-                <p>The FIO Protocol is designed to serve the entire blockchain ecosystem, join the cause!</p>
-              </div><!-- /.service__entry -->
-            </div><!-- /.service__content -->
-          </div><!-- /.service col-md-6 col-lg-4 -->
+                <div class="service__entry">
+                  <p>{{item.description}}</p>
+                </div><!-- /.service__entry -->
+              </div><!-- /.service__content -->
+            </div><!-- /.service col-md-6 col-lg-4 -->
+          {% endfor %}
         </div><!-- /.services -->
       </div><!-- /.section__body -->
 
       <div class="section__actions">
-        <a href="https://developers.fioprotocol.io" target="_blank" class="btn btn-default btn--purple">
-          <span>Go to Developer Hub</span>
+        <a href="{% if page.integrate.button.url contains 'http' %}{{page.integrate.button.url}}{% else %}{{ page.integrate.button.url | relative_url }}{% endif %}" target="_blank" class="btn btn-default btn--purple">
+          <span>{{page.integrate.button.text}}</span>
         </a>
       </div><!-- /.section__actions -->
     </div><!-- /.container -->

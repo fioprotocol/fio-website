@@ -41,6 +41,21 @@ features_cta:
   url: https://kb.fioprotocol.io/foundation/future-projects
 
 integrate:
+  heading: Integrate the FIO Protocol
+  description: Make your users' lives easier by improving usability
+  cards:
+    - heading: Reduce Customer Service Issues
+      description: Eliminate mistakes in sending and receiving crypto and focus on your core product
+      image: /assets/img/feature-image1.png
+    - heading: Create New Experiences
+      description: Don't be limited to hard-to-use user flows - automate the pain away
+      image: /assets/img/feature-image2.png
+    - heading: Support Blockchain Usability
+      description: The FIO Protocol is designed to serve the entire blockchain ecosystem, join the cause!
+      image: /assets/img/feature-image3.png
+  button:
+    text: Go to Developer Hub
+    url: https://developers.fioprotocol.io
 
 companies:
 
