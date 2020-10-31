@@ -58,6 +58,11 @@ integrate:
     url: https://developers.fioprotocol.io
 
 companies:
+  heading: The FIO Ecosystem
+  description: The companies, organizations, and foundations that support the ongoing development of the FIO Protocol
+  button:
+    text: View All
+    url: /ecosystem/
 
 testimonials:
 
