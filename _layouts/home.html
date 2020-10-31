@@ -63,108 +63,20 @@ layout: default
     <div class="container">
       <div class="section__body">
         <div class="features">
-          <div class="feature">
-            <div class="feature__inner row not-gutters">
-
-
-              <div class="feature__image col-12 col-md-6">
-                <img src="{{ '/assets/img/fio-addresses.svg' | absolute_url }}"
-                  style="max-height:535px;" alt="FIO Addresses" data-pagespeed-url-hash="3091891063"
-                  onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-              </div><!-- /.feature__image col-12 col-md-6 -->
-
-              <div class="feature__content col-12 col-md-6">
-                <header class="feature__head">
-                  <h2 class="feature__title">One Identity for all your Crypto</h2><!-- /.feature__title -->
-
-                  <span class="angled-bg bg--blue">
-                    <span>FIO Addresses</span>
-                  </span>
-                </header><!-- /.feature__head -->
-
-                <div class="feature__entry">
-                  <p></p>
-                  <p>FIO Addresses are a single identifier that eliminates the need to see, or even know about,
-                    blockchain public addresses. It’s simple to register, easy to use, and works with every
-                    token/coin automatically.</p>
-                  <p></p>
-                </div><!-- /.feature__entry -->
-
-                <div class="feature__actions">
-                  <a href="https://fioprotocol.io/getting-started/" class="btn btn-secondary">Register a FIO
-                    Address</a>
-                </div><!-- /.feature__actions -->
-              </div><!-- /.feature__content col-12 col-md-6 -->
-            </div><!-- /.feature__inner row not-gutters -->
-          </div><!-- /.feature -->
-
-          <div class="feature">
-            <div class="feature__inner row not-gutters">
-              <div class="feature__content col-12 col-md-6">
-                <header class="feature__head">
-                  <h2 class="feature__title">Don't just Send, Request</h2><!-- /.feature__title -->
-
-                  <span class="angled-bg bg--blue-light">
-                    <span>FIO Requests</span>
-                  </span>
-                </header><!-- /.feature__head -->
-
-                <div class="feature__entry">
-                  <p></p>
-                  <p>Stop asking people what you owe them – let them tell you. Enjoy in-app requests for funds,
-                    done in an encrypted and private manner – specify the type and amount and eliminate confusion
-                    for the sender</p>
-                  <p><strong>Included with a FIO Address</strong></p>
-                  <p></p>
-                </div><!-- /.feature__entry -->
-
-              </div><!-- /.feature__content col-12 col-md-6 -->
-
-              <div class="feature__image col-12 col-md-6">
-                <img src="{{ '/assets/img/fio-requests.svg' | absolute_url }}"
-                  alt="FIO Requests" data-pagespeed-url-hash="4232762735"
-                  onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-              </div><!-- /.feature__image col-12 col-md-6 -->
-            </div><!-- /.feature__inner row not-gutters -->
-          </div><!-- /.feature -->
-
-          <div class="feature">
-            <div class="feature__inner row not-gutters">
-              <div class="feature__image col-12 col-md-6">
-                <img src="{{ '/assets/img/fio-data.svg' | absolute_url }}" alt="FIO Data"
-                  data-pagespeed-url-hash="1204885797"
-                  onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-              </div><!-- /.feature__image col-12 col-md-6 -->
-
-              <div class="feature__content col-12 col-md-6">
-                <header class="feature__head">
-                  <h2 class="feature__title">Transactions with Context</h2><!-- /.feature__title -->
-
-                  <span class="angled-bg bg--blue-lighter">
-                    <span>FIO Data</span>
-                  </span>
-                </header><!-- /.feature__head -->
-
-                <div class="feature__entry">
-                  <p></p>
-                  <p>Attach standardized metadata to any crypto transaction, ranging from a simple note to
-                    structured data like an order card or invoice. Remember the “why” behind every transaction</p>
-                  <p><strong>Included with a FIO Address</strong></p>
-                  <p></p>
-                </div><!-- /.feature__entry -->
-
-              </div><!-- /.feature__content col-12 col-md-6 -->
-            </div><!-- /.feature__inner row not-gutters -->
-          </div><!-- /.feature -->
+          {% for feature in page.features %}
+            {% include block-feature.html %}
+          {% endfor %}
         </div><!-- /.features -->
       </div><!-- /.section__body -->
 
-      <div class="section__actions text-center">
-        <a href="https://kb.fioprotocol.io/foundation/future-projects" target="_blank"
-          class="btn btn-default btn--purple">
-          <span>See the Roadmap for more...</span>
-        </a>
-      </div><!-- /.section__actions -->
+      {% if page.features_cta.url %}
+        <div class="section__actions text-center">
+          <a href="{% if page.features_cta.url contains 'http' %}{{page.features_cta.url}}{% else %}{{ page.features_cta.url | relative_url }}{% endif %}" target="_blank"
+            class="btn btn-default btn--purple">
+            <span>{{page.features_cta.text}}</span>
+          </a>
+        </div><!-- /.section__actions -->
+      {% endif %}
     </div><!-- /.container -->
   </div><!-- /.section__inner -->
 

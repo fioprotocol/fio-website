@@ -13,6 +13,32 @@ intro:
     url: https://developers.fioprotocol.io
 
 features:
+  - heading: One Identity for all your Crypto
+    subheading: FIO Addresses
+    image: /assets/img/fio-addresses.svg
+    description: FIO Addresses are a single identifier that eliminates the need to see, or even know about, blockchain public addresses. It’s simple to register, easy to use, and works with every token/coin automatically.
+    button:
+      text: Register a FIO Address
+      url: /getting-started/
+
+  - heading: Don't just Send, Request
+    subheading: FIO Requests
+    subheading_style: light
+    image: /assets/img/fio-requests.svg
+    align: left
+    description: Stop asking people what you owe them – let them tell you. Enjoy in-app requests for funds, done in an encrypted and private manner – specify the type and amount and eliminate confusion for the sender
+    subtext: Included with a FIO Address
+
+  - heading: Transactions with Context
+    subheading: FIO Data
+    subheading_style: light
+    image: /assets/img/fio-data.svg
+    description: Attach standardized metadata to any crypto transaction, ranging from a simple note to structured data like an order card or invoice. Remember the “why” behind every transaction
+    subtext: Included with a FIO Address
+
+features_cta: 
+  text: See the Roadmap for more...
+  url: https://kb.fioprotocol.io/foundation/future-projects
 
 integrate:
 
