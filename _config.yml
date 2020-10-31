@@ -13,7 +13,7 @@ author:
   phone:                  +1-800-354-3434
   address:                2030 West River St. <br> New York 52304
 
-favicon:                   https://via.placeholder.com/16
+favicon:                  /assets/img/favicon.ico
 
 navbar:
   sticky:                 true
