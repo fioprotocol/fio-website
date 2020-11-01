@@ -246,81 +246,72 @@ layout: default
 <section class="section section--news">
   <div class="container">
     <header class="section__head">
-      <h3 class="section__title">News and Events</h3><!-- /.section__title -->
+      <h3 class="section__title">{{page.news.heading}}</h3><!-- /.section__title -->
     </header><!-- /.section__head -->
 
     <div class="section__body">
       <div class="cards cols">
-
+        {% assign item = site.data.press | where: 'featured_blog', true | first %}
         <div class="col col--size1">
-
-
-          <a href="https://medium.com/fio-blog/fio-changenow-2963d9cecbe9">
+          <a href="{% if item.url contains 'http' %}{{item.url}}{% else %}{{ item.url | relative_url }}{% endif %}">
             <div class="card">
 
               <div class="card-image">
-                <img src="https://fioprotocol.io/wp-content/uploads/2020/10/CN.png" class="card-img-top"
-                  alt="ChangeNOW &amp; FIO" data-pagespeed-url-hash="1338133974"
+                <img src="{% if item.image contains 'http' %}{{item.image}}{% else %}{{ item.image | absolute_url }}{% endif %}" class="card-img-top"
+                  alt="{{item.title}}" data-pagespeed-url-hash="1338133974"
                   onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
               </div><!-- /.card-image -->
 
               <div class="card-body">
-                <h3>Featured Blog</h3>
-                <p>October 16, 2020 - The FIO Protocol has officially been integrated into the ChangeNOW
-                  interface, allowing for a simplified exchange process that doesn’t require you to enter a public
-                  address or scan a single QR code.</p>
+                <h3>{{page.news.heading_blog}}</h3>
+                <p>{{item.date}} - {{item.title}}</p>
               </div><!-- /.card-body -->
             </div>
           </a><!-- /.card -->
-
         </div><!-- /.col col-/-size1 -->
 
         <div class="col col--size2">
-
-
-
+          {% assign item = site.data.press | where: 'featured_media', true | first %}
           <a
-            href="https://blockmanity.com/news/feature/fio-protocol-overcomes-the-barrier-of-cryptocurrency-usability-to-enable-adoption/">
+            href="{% if item.url contains 'http' %}{{item.url}}{% else %}{{ item.url | relative_url }}{% endif %}">
             <div class="card card--sm">
               <div class="card-image">
-                <img src="https://fioprotocol.io/wp-content/uploads/2020/10/block.png" class="card-img-top"
-                  alt="Blockmanity" data-pagespeed-url-hash="4176563656"
+                <img src="{% if item.image contains 'http' %}{{item.image}}{% else %}{{ item.image | absolute_url }}{% endif %}" class="card-img-top"
+                  alt="{{item.title}}" data-pagespeed-url-hash="4176563656"
                   onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
               </div><!-- /.card-image -->
 
               <div class="card-body">
-                <h3>Featured Media</h3>
-                <p>October 2, 2020 - FIO Protocol Overcomes The Barrier Of Cryptocurrency Usability To Enable
-                  Adoption</p>
+                  <h3>{{page.news.heading_media}}</h3>
+                <p>{{item.date}} - {{item.title}}</p>
 
               </div><!-- /.card-body -->
             </div><!-- /.card -->
           </a>
-
-
+          {% assign item = site.data.press | where: 'featured_news', true | first %}
           <a
-            href="https://www.cryptoglobe.com/latest/2020/07/bitmax-io-announced-the-listing-of-fio-protocol-fio-with-airdrop-investment-product-trading-contests-bounty-program/">
-
+            href="{% if item.url contains 'http' %}{{item.url}}{% else %}{{ item.url | relative_url }}{% endif %}">
             <div class="card card--sm">
               <div class="card-image">
-                <img src="https://fioprotocol.io/wp-content/uploads/2019/04/cryptoglobe.png" class="card-img-top"
-                  alt="Crypto Globe Logo" data-pagespeed-url-hash="660408466"
+                <img src="{% if item.image contains 'http' %}{{item.image}}{% else %}{{ item.image | absolute_url }}{% endif %}" class="card-img-top"
+                  alt="{{item.title}}" data-pagespeed-url-hash="4176563656"
                   onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
               </div><!-- /.card-image -->
 
               <div class="card-body">
-                <h3>Featured News</h3>
-                <p>July 20, 2020 - BitMax.io Announced the Listing of FIO Protocol ($FIO) with Airdrop, Investment
-                  Product, Trading Contests, &amp; Bounty Program</p>
+                  <h3>{{page.news.heading_news}}</h3>
+                <p>{{item.date}} - {{item.title}}</p>
+
               </div><!-- /.card-body -->
             </div><!-- /.card -->
           </a>
         </div><!-- /.col col-/-size2 -->
+        
       </div><!-- /.cards -->
     </div><!-- /.section__body -->
 
     <div class="section__actions">
-      <a href="https://fioprotocol.io/press/" class="btn btn-secondary btn-secondary--md btn--gray">View All</a>
+      <a href="{% if page.news.button.url contains 'http' %}{{page.news.button.url}}{% else %}{{ page.news.button.url | relative_url }}{% endif %}" class="btn btn-secondary btn-secondary--md btn--gray">{{page.news.button.text}}</a>
     </div><!-- /.section__actions -->
   </div><!-- /.container -->
 </section><!-- /.section section-/-news -->

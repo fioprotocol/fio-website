@@ -68,22 +68,12 @@ testimonials:
   heading: Testimonials
 
 news:
-
-
-blocks:
-# - template: projects
-#   block: projects
-#   width: default
-
-- template: cta
-  block: cta
-  width: xsmall
-  # height: full
-  style: muted
-  title: Start a project
-  content: | 
-    Dramatically transform corporate solutions and cooperative methods of empowerment. Globally engineer web-enabled testing procedures.
+  heading: News and Events
+  heading_blog: Featured Blog
+  heading_media: Featured Media
+  heading_news: Featured News
   button:
-    text: Contact Us
-    url: /contact/
+    text: View All
+    url: /press/
+
 ---
