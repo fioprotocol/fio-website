@@ -68,9 +68,9 @@ sass:
 
 livereload:               true
 
-# collections:
-#   collection_name:
-#     output: true
+collections:
+  testimonials:
+    output: false
 # defaults:
 # - scope:
 #     path: ''

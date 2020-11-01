@@ -65,6 +65,7 @@ companies:
     url: /ecosystem/
 
 testimonials:
+  heading: Testimonials
 
 news:
 
