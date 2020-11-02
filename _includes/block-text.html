@@ -1,6 +1,0 @@
-{% if block.title %}
-  <h2 class="uk-heading-small uk-text-serif uk-margin-remove uk-text-center">{{ block.title }}</h2>
-{% endif %}
-{% if block.content %}
-  <div class="uk-line-medium{% if block.columns %} uk-column-1-{{block.columns}}@m{% endif %}{% if block.title %} uk-margin-large-top{% endif %} uk-margin-remove-last-child">{{block.content | markdownify}}</div>
-{% endif %}
