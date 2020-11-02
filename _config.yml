@@ -8,15 +8,7 @@ lang:                     en
 logo:                     /assets/img/logo.png
 permalink:                "/:title/"
 
-author:
-  email:                  info@blacompany.com
-  phone:                  +1-800-354-3434
-  address:                2030 West River St. <br> New York 52304
-
 favicon:                  /assets/img/favicon.ico
-
-navbar:
-  sticky:                 true
   
 footer:
   copyright:              "&copy; 2020 FIO"
@@ -76,14 +68,3 @@ livereload:               true
 collections:
   testimonials:
     output: false
-# defaults:
-# - scope:
-#     path: ''
-#     type: collection_name
-#   values:
-#     layout: collection_name
-# - scope:
-#     path: ''
-#     type: pages
-#   values:
-#     layout: 
