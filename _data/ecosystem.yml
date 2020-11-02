@@ -11,8 +11,29 @@
     - FIO Request
     - FIO Domains
     - FIO Data
-
-
+  - heading: Edge
+    featured: true
+    image: /assets/img/ecosystem/edge.png
+    url: https://edge.app/
+    list:
+    - FIO Token
+    - Send to FIO Address
+    - Receive to FIO address
+    - FIO Request
+    - FIO Domains
+    - FIO Data
+  - heading: Edge
+    featured: true
+    image: /assets/img/ecosystem/edge.png
+    url: https://edge.app/
+    list:
+    - FIO Token
+    - Send to FIO Address
+    - Receive to FIO address
+    - FIO Request
+    - FIO Domains
+    - FIO Data
+    
 - category: Exchanges
   items:
   - heading: Some other
