@@ -2,3 +2,20 @@
 layout: default
 ---
 
+<section class="section">
+  <div class="section__inner">
+    <div class="container">
+      <div class="section__body">
+        <div class="features">
+          {% for feature in page.features %}
+            {% include block-feature.html %}
+          {% endfor %}
+        </div><!-- /.features -->
+      </div><!-- /.section__body -->
+    </div><!-- /.container -->
+  </div><!-- /.section__inner -->
+
+  <div class="section__bg"
+    style="background-image:url(https://fioprotocol.io/wp-content/themes/fio/build/images/bg-features.png)"></div>
+  <!-- /.section__bg -->
+</section>

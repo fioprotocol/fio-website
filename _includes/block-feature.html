@@ -2,9 +2,17 @@
   <div class="feature__inner row not-gutters">
     {% unless feature.align == 'left' %}
       <div class="feature__image col-12 col-md-6">
-        <img src="{{ feature.image | absolute_url }}"
-          style="max-height:535px;" alt="FIO Addresses" data-pagespeed-url-hash="3091891063"
-          onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+        {% if feature.image %}
+          <img src="{{ feature.image | absolute_url }}"
+            style="max-height:535px;" alt="FIO Addresses" data-pagespeed-url-hash="3091891063"
+            onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+        {% endif %}
+        {% if feature.video_id %}
+          <iframe title="{{feature.heading}}" width="640" height="360"
+            src="https://www.youtube.com/embed/{{feature.video_id}}?feature=oembed" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen=""></iframe>
+        {% endif %}
       </div><!-- /.feature__image col-12 col-md-6 -->
     {% endunless %}
     <div class="feature__content col-12 col-md-6">
@@ -33,9 +41,17 @@
 
     {% if feature.align == 'left' %}
       <div class="feature__image col-12 col-md-6">
-        <img src="{{ feature.image | absolute_url }}"
-          style="max-height:535px;" alt="FIO Addresses" data-pagespeed-url-hash="3091891063"
-          onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+        {% if feature.image %}
+          <img src="{{ feature.image | absolute_url }}"
+            style="max-height:535px;" alt="FIO Addresses" data-pagespeed-url-hash="3091891063"
+            onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+        {% endif %}
+        {% if feature.video_id %}
+          <iframe title="{{feature.heading}}" width="640" height="360"
+            src="https://www.youtube.com/embed/{{feature.video_id}}?feature=oembed" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen=""></iframe>
+        {% endif %}
       </div><!-- /.feature__image col-12 col-md-6 -->
     {% endif %}
   </div><!-- /.feature__inner row not-gutters -->
