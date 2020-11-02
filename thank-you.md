@@ -1,5 +1,5 @@
 ---
-layout: thank-you
+layout: text
 title: Thank You
 
 featured:
