@@ -26,18 +26,23 @@ footer:
 
 google_analytics:         GTM-WWSZ8NR
 
-social_networks:
-  facebook:               
-  flickr: 
-  dribbble: 
-  github: 
-  instagram:              
-  linkedin: 
-  pinterest: 
-  twitter: 
-  vimeo: 
-  youtube: 
+mailchimp:
+  form_action:            https://some.list-manage.com/subscribe/post?u=jhgjhghjghjgjhg&id=hjjhjjhh
+  hidden_name:            b_2e56c123105fsdfdsfsd2bd_e6e945b784
 
+social_networks:
+  telegram:               https://t.me/joinFIO
+  discord:                https://discord.gg/pHBmJCc
+  facebook:               https://www.facebook.com/officialFIO
+  reddit:                 https://www.reddit.com/r/officialFIO
+  linkedin:               https://www.linkedin.com/company/officialfio/
+  twitter:                https://twitter.com/joinFIO
+
+callout:
+  heading:                Keep in Touch
+  description:            Sign up for our monthly newsletter and join us on social!
+  placeholder:            Enter Email Address
+  
 markdown:                 kramdown
 highlighter:              rouge
 plugins:
