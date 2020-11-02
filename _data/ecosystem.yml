@@ -2,6 +2,7 @@
   items:
   - heading: Edge
     featured: true
+    featured_addresses: true
     image: /assets/img/ecosystem/edge.png
     url: https://edge.app/
     list:
@@ -13,6 +14,7 @@
     - FIO Data
   - heading: Edge
     featured: true
+    featured_addresses: true
     image: /assets/img/ecosystem/edge.png
     url: https://edge.app/
     list:

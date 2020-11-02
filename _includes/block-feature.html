@@ -27,9 +27,9 @@
 
       <div class="feature__entry">
         <p></p>
-        <p>{{feature.description}}</p>
+        <div>{{feature.description | markdownify}}</div>
           {% if feature.subtext %}
-            <p><strong>{{feature.subtext}}</strong></p>
+            <p class="mt-3"><strong>{{feature.subtext}}</strong></p>
           {% endif %}
         <p></p>
       </div><!-- /.feature__entry -->
