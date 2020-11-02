@@ -18,10 +18,11 @@
     <div class="feature__content col-12 col-md-6">
       <header class="feature__head">
         <h2 class="feature__title">{{feature.heading}}</h2><!-- /.feature__title -->
-
-        <span class="angled-bg{% if feature.subheading_style %} bg--blue-lighter{% else %} bg--blue{% endif %}">
-          <span>{{feature.subheading}}</span>
-        </span>
+        {% if feature.subheading %}
+          <span class="angled-bg{% if feature.subheading_style %} bg--blue-lighter{% else %} bg--blue{% endif %}">
+            <span>{{feature.subheading}}</span>
+          </span>
+        {% endif %}
       </header><!-- /.feature__head -->
 
       <div class="feature__entry">

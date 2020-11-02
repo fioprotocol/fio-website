@@ -1,5 +1,5 @@
 ---
-layout: getting-started
+layout: features
 title: Getting Started
 
 features:
