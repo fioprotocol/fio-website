@@ -26,7 +26,7 @@ layout: default
       <h3 class="section__title">{{page.trading.heading}}</h3><!-- /.section__title -->
       <p>
         {% for item in page.trading.images %}
-          <a href="{{item.url}}" target="_blank" rel="noopener"><img class="alignnone size-full" src="{{item.image | absolute_url}}" alt="{{item.alt}}" width="100" height="100" data-pagespeed-url-hash="3389633686" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a><br>
+          <a href="{{item.url}}" target="_blank" rel="noopener"><img class="alignnone size-full" src="{{item.image | absolute_url}}" alt="{{item.alt}}" width="100" height="100"></a><br>
         {% endfor %}
       </p>
     </header><!-- /.section__head -->

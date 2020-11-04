@@ -33,8 +33,7 @@ layout: default
       </div><!-- /.intro__content -->
 
       <div class="intro__image d-none d-lg-block">
-        <img src="{{ page.intro.image | absolute_url }}" alt="{{page.intro.heading | strip_html }}"
-          data-pagespeed-url-hash="824248591" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+        <img src="{{ page.intro.image | absolute_url }}" alt="{{page.intro.heading | strip_html }}">
       </div><!-- /.intro__image -->
     </div><!-- /.intro__inner -->
 
@@ -99,9 +98,7 @@ layout: default
           {% for item in page.integrate.cards %}
             <div class="service col-md-6 col-lg-4">
               <div class="service__image">
-                <img src="{{ item.image| absolute_url }}" alt=""
-                  data-pagespeed-url-hash="2453339272"
-                  onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                <img src="{{ item.image| absolute_url }}" alt="{{item.heading}}">
               </div><!-- /.service__image -->
 
               <div class="service__content">
@@ -163,9 +160,7 @@ layout: default
                 <div class="box col-12 col-md-6">
                   <a href="{{item.url}}" target="_blank" class="box__inner {{status}}">
                     <div class="box__image">
-                      <img src="{{ item.image| absolute_url }}" alt="{{item.heading}}"
-                        data-pagespeed-url-hash="1452087172"
-                        onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                      <img src="{{ item.image| absolute_url }}" alt="{{item.heading}}">
                     </div><!-- /.box__image -->
                     <div class="box__content">
                       <h4>{{item.heading}}</h4>
@@ -268,8 +263,7 @@ layout: default
 
               <div class="card-image">
                 <img src="{% if item.image contains 'http' %}{{item.image}}{% else %}{{ item.image | absolute_url }}{% endif %}" class="card-img-top"
-                  alt="{{item.title}}" data-pagespeed-url-hash="1338133974"
-                  onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                  alt="{{item.title}}">
               </div><!-- /.card-image -->
 
               <div class="card-body">
@@ -287,8 +281,7 @@ layout: default
             <div class="card card--sm">
               <div class="card-image">
                 <img src="{% if item.image contains 'http' %}{{item.image}}{% else %}{{ item.image | absolute_url }}{% endif %}" class="card-img-top"
-                  alt="{{item.title}}" data-pagespeed-url-hash="4176563656"
-                  onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                  alt="{{item.title}}">
               </div><!-- /.card-image -->
 
               <div class="card-body">
@@ -304,8 +297,7 @@ layout: default
             <div class="card card--sm">
               <div class="card-image">
                 <img src="{% if item.image contains 'http' %}{{item.image}}{% else %}{{ item.image | absolute_url }}{% endif %}" class="card-img-top"
-                  alt="{{item.title}}" data-pagespeed-url-hash="4176563656"
-                  onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                  alt="{{item.title}}">
               </div><!-- /.card-image -->
 
               <div class="card-body">

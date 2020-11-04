@@ -25,13 +25,20 @@
   var noticeBar = document.getElementById('cookie-notice');
   var cookieNotice = readCookie('cookieNotice');
 
-  function agree(){
+  function agree(event){
+    event.preventDefault();
     createCookie('cookieNotice', true, 31);
+    noticeBar.classList.add("cookie-notice-hidden");
   };
-  
-  // createCookie('cookieNotice', '', -1);
 
+  function closeNotice(event){
+    event.preventDefault();
+    noticeBar.classList.add("cookie-notice-hidden");
+  };
+
+  // createCookie('cookieNotice', '', -1);
+  
   if (cookieNotice != null) {
-    noticeBar.style.visibility = "hidden";;
+    noticeBar.classList.add("cookie-notice-hidden");
   }
 </script>

@@ -20,8 +20,7 @@ layout: default
                     target="_blank">
                     <div class="card-image">
                       <img src="{% if item.image contains 'http' %}{{item.image}}{% else %}{{ item.image | absolute_url }}{% endif %}" class="card-img-top"
-                        alt="{{item.title}}" data-pagespeed-url-hash="4176563656"
-                        onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                        alt="{{item.title}}">
                     </div><!-- /.card-image -->
 
                     <div class="card-body">
