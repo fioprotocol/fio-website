@@ -1,15 +1,15 @@
 ---
 layout: home
 title: Foundation for Interwallet Operability
-lang: en
+lang: es
 intro:
-  heading: Making Crypto Products <span>Easier</span> So&nbsp;<span>Anyone</span>&nbsp;Can Use Them
+  heading: 誰もが利用できるように仮想通貨製品を簡単に
   image: /assets/img/fio-protocol.svg
   button_1:
-    text: Get Started
+    text: FIOアドレスを登録
     url: /getting-started/
   button_2:
-    text: Integrate the FIO Protocol
+    text: FIOプロトコルをインテグレート
     url: https://developers.fioprotocol.io
 
 features:

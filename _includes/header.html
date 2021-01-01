@@ -1,3 +1,4 @@
+{% assign page_lang = page.lang | default: site.lang %}
 <header class="header">
   <div class="container">
     <div class="header__inner">
@@ -28,9 +29,9 @@
               {% if link.title %}
                 <li class="menu-item{% if link.dropdown != null %} menu-item-has-children has--dropdown{% endif %}">
                   {% if link.url %}
-                    <a href="{{ domain }}{{ link.url }}"{% if link.blank %} target="_blank" rel="noopener" {% endif %}>{{ link.title }}</a>
+                    <a href="{{ domain }}{{ link.url }}"{% if link.blank %} target="_blank" rel="noopener" {% endif %}>{{ link.title[page_lang] }}</a>
                   {% else %}
-                    <a href="#">{{ link.title }}</a>
+                    <a href="#">{{ link.title[page_lang] }}</a>
                   {% endif %}
                   {% if link.dropdown != null %}
                     <ul class="sub-menu">
@@ -41,9 +42,9 @@
                           {% else %}
                             {% assign domain = '' | relative_url %}
                           {% endif %}
-                          <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="{{ domain }}{{ child.url }}"{% if child.blank %} target="_blank" rel="noopener" {% endif %}>{{ child.title }}</a></li>
+                          <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="{{ domain }}{{ child.url }}"{% if child.blank %} target="_blank" rel="noopener" {% endif %}>{{ child.title[page_lang] }}</a></li>
                         {% else %}
-                          <li class="uk-nav-header">{{ child.title }}</li>
+                          <li class="uk-nav-header">{{ child.title[page_lang] }}</li>
                         {% endif %}
                       {% endfor %}
                     </ul>
@@ -53,7 +54,58 @@
             {% endfor %}
           </ul>
         </nav><!-- /.nav -->
+        {% if page_lang == 'en' %}
+          {% assign en_url = page.url %}
+          {% assign zh_url = page.url | prepend: '/zh' %}
+          {% assign ja_url = page.url | prepend: '/ja' %}
+          {% assign ko_url = page.url | prepend: '/ko' %}
+          {% assign es_url = page.url | prepend: '/es' %}
+          {% assign ru_url = page.url | prepend: '/ru' %}
+        {% elsif page_lang == 'zh' %}
+          {% assign en_url = page.url | remove_first: '/zh' %}
+          {% assign zh_url = page.url %}
+          {% assign ja_url = page.url | remove_first: '/zh' | prepend: '/ja' %}
+          {% assign ko_url = page.url | remove_first: '/zh' | prepend: '/ko' %}
+          {% assign es_url = page.url | remove_first: '/zh' | prepend: '/es' %}
+          {% assign ru_url = page.url | remove_first: '/zh' | prepend: '/ru' %}
+        {% elsif page_lang == 'ja' %}
+          {% assign en_url = page.url | remove_first: '/ja' %}
+          {% assign zh_url = page.url | remove_first: '/ja' | prepend: '/zh' %}
+          {% assign ja_url = page.url %}
+          {% assign ko_url = page.url | remove_first: '/ja' | prepend: '/ko' %}
+          {% assign es_url = page.url | remove_first: '/ja' | prepend: '/es' %}
+          {% assign ru_url = page.url | remove_first: '/ja' | prepend: '/ru' %}
+        {% elsif page_lang == 'ko' %}
+          {% assign en_url = page.url | remove_first: '/ko' %}
+          {% assign zh_url = page.url | remove_first: '/ko' | prepend: '/zh' %}
+          {% assign ja_url = page.url | remove_first: '/ko' | prepend: '/ja' %}
+          {% assign ko_url = page.url %}
+          {% assign es_url = page.url | remove_first: '/ko' | prepend: '/es' %}
+          {% assign ru_url = page.url | remove_first: '/ko' | prepend: '/ru' %}
+        {% elsif page_lang == 'ru' %}
+          {% assign en_url = page.url | remove_first: '/ru' %}
+          {% assign zh_url = page.url | remove_first: '/ru' | prepend: '/zh' %}
+          {% assign ja_url = page.url | remove_first: '/ru' | prepend: '/ja' %}
+          {% assign ko_url = page.url | remove_first: '/ru' | prepend: '/ko' %}
+          {% assign es_url = page.url | remove_first: '/ru' | prepend: '/es' %}
+          {% assign ru_url = page.url %}
+        {% elsif page_lang == 'es' %}
+          {% assign en_url = page.url | remove_first: '/es' %}
+          {% assign zh_url = page.url | remove_first: '/es' | prepend: '/zh' %}
+          {% assign ja_url = page.url | remove_first: '/es' | prepend: '/ja' %}
+          {% assign ko_url = page.url | remove_first: '/es' | prepend: '/ko' %}
+          {% assign es_url = page.url %}
+          {% assign ru_url = page.url | remove_first: '/es' | prepend: '/ru' %}
+        {% endif %}
 
+        <select class="language-selector custom-select custom-select-sm" onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+          <option value="{{ en_url | relative_url }}"{% if page_lang == 'en' %} selected{% endif %}>🇬🇧 English</option>
+          <option value="{{ zh_url | relative_url }}"{% if page_lang == 'zh' %} selected{% endif %}>🇨🇳 简体中文</option>
+          <option value="{{ ja_url | relative_url }}"{% if page_lang == 'ja' %} selected{% endif %}>🇯🇵 日本語</option>
+          <option value="{{ ko_url | relative_url }}"{% if page_lang == 'ko' %} selected{% endif %}>🇰🇷 한국어</option>
+          <option value="{{ es_url | relative_url }}"{% if page_lang == 'es' %} selected{% endif %}>🇪🇸 Español</option>
+          <option value="{{ ru_url | relative_url }}"{% if page_lang == 'ru' %} selected{% endif %}>🇷🇺 Русский</option>
+        </select>
       </div><!-- /.header__content col-10 -->
     </div><!-- /.header__inner row -->
   </div><!-- /.container -->

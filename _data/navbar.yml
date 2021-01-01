@@ -1,44 +1,148 @@
-- title: For Users
+- title: 
+    en: For Users
+    zh: 给用户
+    ja: ユーザーの方へ
+    ko: 사용자용
+    es: Para usuarios
+    ru: Для пользователей
   dropdown:
-    - title: Getting Started
+    - title: 
+        en: Getting Started
+        zh: 如何开始
+        ja: 始める前に
+        ko: 시작하기
+        es: Empezando
+        ru: Приступая к работе
       url: /getting-started/
-    - title: Demonstrations
+    - title: 
+        en: Demonstrations
+        zh: 示范
+        ja: 実用例
+        ko: 데모
+        es: Demostraciones
+        ru: Презентации
       url: /demonstrations/
-    - title: FIO Token
+    - title: 
+        en: FIO Token
+        zh: FIO代币
+        ja: FIOトークン
+        ko: FIO 토큰
+        es: Token FIO
+        ru: Токен FIO 
       url: /fio-token/
-    - title: Ecosystem
+    - title: 
+        en: Ecosystem
+        zh: 生态系统
+        ja: エコシステム
+        ko: 생태계
+        es: Ecosistema
+        ru: Экосистема    
       url: /ecosystem/
 
-- title: For Integrators
+- title: 
+    en: For Integrators
+    zh: 给集成商
+    ja: インテグレータの方へ
+    ko: 통합업체용
+    es: Para integradores
+    ru: Для интеграторов
   dropdown:
-    - title: Knowledge Base
+    - title: 
+        en: Knowledge Base
+        zh: 知识库
+        ja: 知識ベース
+        ko: 기술 자료
+        es: Base de Conocimiento
+        ru: База знаний  
       url: https://kb.fioprotocol.io/
       blank: true
-    - title: Developer Hub
+    - title: 
+        en: Developer Hub
+        zh: 开发人员中心
+        ja: デベロッパーハブ
+        ko: 개발자 허브
+        es: Centro de desarrolladores
+        ru: Центр разработки 
       url: https://developers.fioprotocol.io/
       blank: true
-    - title: Block Explorer
+    - title: 
+        en: Block Explorer
+        zh: 区块浏览器
+        ja: ブロックエクスプローラ
+        ko: 블록 탐색기
+        es: Explorador de bloques
+        ru: Обозреватель блокчейна 
       url: https://fio.bloks.io/
       blank: true
-    - title: Github
+    - title: 
+        en: Github
+        zh: Github
+        ja: Github
+        ko: 깃헙
+        es: Github
+        ru: Github  
       url: https://github.com/fioprotocol
       blank: true
 
-- title: Foundation
+- title: 
+    en: Foundation
+    zh: 基础
+    ja: 財団
+    ko: 파운데이션
+    es: Fundación
+    ru: Фонд 
   dropdown:
-    - title: About FIO
+    - title: 
+        en: About FIO
+        zh: 关于FIO
+        ja: FIOについて
+        ko: FIO 정보
+        es: Sobre FIO
+        ru: О проекте FIO    
       url: /about-fio/
-    - title: Blog
+    - title: 
+        en: Blog
+        zh: 博客
+        ja: ブログ
+        ko: 블로그
+        es: Blog
+        ru: Блог
       url: https://medium.com/fio-blog
-    - title: Research
+    - title: 
+        en: Research
+        zh: 研究
+        ja: 研究
+        ko: 연구
+        es: Investigación
+        ru: Исследования 
       url: https://medium.com/fio-blog/research/home
-    - title: Press
+    - title: 
+        en: Press
+        zh: 新闻
+        ja: 報道
+        ko: 언론
+        es: Prensa
+        ru: Для СМИ
       url: /press/
-    - title: Brand Assets
+    - title: 
+        en: Brand Assets
+        zh: 品牌资产
+        ja: ブランドアセット
+        ko: 브랜드 자산
+        es: Activos de la marca
+        ru: Активы бренда
       url: /brand-assets/
 
-- title: Contact
+- title: 
+    en: Contact
+    zh: 联系
+    ja: お問い合わせ
+    ko: 연락처
+    es: Contacto
+    ru: Контакты
   url: https://fioprotocol.atlassian.net/servicedesk/customer/portal/3/group/-1
+
+
 
 
 

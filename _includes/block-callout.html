@@ -3,8 +3,8 @@
     <div class="callout">
       <div class="callout__inner">
         <div class="callout__head">
-          <h3 class="callout__title">{{site.callout.heading}}</h3><!-- /.callout__title -->
-          <p>{{site.callout.description}}</p>
+          <h3 class="callout__title">{{ site.data.translation[page.lang].newsletter_heading | default: "Keep in Touch" }}</h3><!-- /.callout__title -->
+          <p>{{ site.data.translation[page.lang].newsletter_description | default: "Sign up for our monthly newsletter and join us on social!" }}</p>
         </div><!-- /.callout__head -->
 
         <div class="callout__body">
@@ -16,7 +16,7 @@
 
                 <div class="search__inner">
 
-                  <input type="email" name="EMAIL" id="mce-EMAIL" placeholder="{{site.callout.placeholder}}"
+                  <input type="email" name="EMAIL" id="mce-EMAIL" placeholder="{{ site.data.translation[page.lang].newsletter_email | default: "Enter Email Address" }}"
                     class="search__field required email" required="">
 
                   <i class="ico-email">
@@ -32,7 +32,7 @@
                   <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                   <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="{{ site.mailchimp.hidden_name }}" tabindex="-1" value=""></div>
                   
-                  <input type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe" class="search__btn">
+                  <input type="submit" value="{{ site.data.translation[page.lang].newsletter_submit | default: "Submit" }}" name="subscribe" id="mc-embedded-subscribe" class="search__btn">
                 </div><!-- /.search__inner -->
               </div>              
             </form>
