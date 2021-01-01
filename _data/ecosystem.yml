@@ -1,6 +1,6 @@
 - category: Wallets
   items:
-  - heading: Edge
+  - heading: Edge Wallet
     featured: true
     featured_addresses: true
     status: integrated
@@ -13,12 +13,12 @@
     - FIO Request
     - FIO Domains
     - FIO Data
-  - heading: Edge
+  - heading: Infinito Wallet
     featured: true
     featured_addresses: true
-    status: integrating
-    image: /assets/img/ecosystem/edge.png
-    url: https://edge.app/
+    status: integrated
+    image: /assets/img/ecosystem/infinito.png
+    url: https://www.infinitowallet.io
     list:
     - FIO Token
     - Send to FIO Address
@@ -26,48 +26,310 @@
     - FIO Request
     - FIO Domains
     - FIO Data
-  - heading: Edge
+  - heading: Guarda Wallet
     featured: true
-    status: preintegration
-    image: /assets/img/ecosystem/edge.png
-    url: https://edge.app/
+    featured_addresses: true
+    status: integrated
+    image: /assets/img/ecosystem/guarda.png
+    url: https://guarda.com
     list:
     - FIO Token
     - Send to FIO Address
     - Receive to FIO address
     - FIO Request
-    - FIO Domains
+  - heading: Shapeshift
+    featured: true
+    featured_addresses: true
+    status: integrated
+    image: /assets/img/ecosystem/shapeshift.png
+    url: https://shapeshift.com
+    list:
+    - FIO Token
+    - Send to FIO Address
+    - Receive to FIO address
+    - FIO Request
     - FIO Data
-    
+  - heading: Coinomi
+    featured: true
+    status: integrated
+    image: /assets/img/ecosystem/coinomi.png
+    url: https://www.coinomi.com/en/
+    list:
+    - FIO Token
+    - Send to FIO Address
+    - Receive to FIO address
+    - FIO Request
+    - FIO Data
+  - heading: Scatter
+    featured: true
+    status: integrated
+    image: /assets/img/ecosystem/scatter.png
+    url: https://get-scatter.com
+    list:
+    - FIO Token
+    - Send to FIO Address
+    - Receive to FIO address
+    - FIO Request
+  - heading: TRIBE
+    featured: true
+    status: integrated
+    image: /assets/img/ecosystem/tribe.png
+    url: http://eostribe.io
+    list:
+    - Send to FIO Address
+    - Receive to FIO address
+    - FIO Request
+  - heading: Midas Protocol
+    featured: true
+    featured_addresses: true
+    status: integrated
+    image: /assets/img/ecosystem/midas.png
+    url: https://midasprotocol.io
+    list:
+    - FIO Token
+    - Send to FIO Address
+    - Receive to FIO address
+    - FIO Request
+    - FIO Data
+  - heading: Trust Wallet
+    status: integrated
+    image: /assets/img/ecosystem/trust.png
+    url: https://trustwallet.com
+    list:
+    - FIO Token
+    - Send to FIO Address
+  - heading: BRD
+    status: integrated
+    image: /assets/img/ecosystem/brd.png
+    url: https://brd.com
+    list:
+    - Send to FIO Address
+  - heading: Token Pocket
+    status: integrated
+    image: /assets/img/ecosystem/TokenPocket.png
+    url: https://www.tokenpocket.pro
+    list:
+    - Send to FIO Address
+  - heading: Haven Protocol
+    status: integrating
+    image: /assets/img/ecosystem/haven.png
+    url: https://havenprotocol.org
+    list:
+    - Integrating
+  - heading: Mycelium
+    status: integrating
+    image: /assets/img/ecosystem/mycelium.png
+    url: https://mycelium.com
+    list:
+    - Integrating
+  - heading: Enjin Wallet
+    status: preintegration
+    image: /assets/img/ecosystem/enjin.png
+    url: https://enjin.io/software/wallet
+    list:
+    - Pre-integration
+  - heading: Atomic Wallet
+    status: preintegration
+    image: /assets/img/ecosystem/atomicwallet.png
+    url: https://atomicwallet.io
+    list:
+    - Pre-integration
+  - heading: Math Wallet
+    status: preintegration
+    image: /assets/img/ecosystem/mathwallet.png
+    url: https://mathwallet.org/en/
+    list:
+    - Pre-integration
+  - heading: AlphaWallet
+    status: preintegration
+    image: /assets/img/ecosystem/alphwallet.png
+    url: https://alphawallet.com
+    list:
+    - Pre-integration
+  - heading: Bitpie
+    status: preintegration
+    image: /assets/img/ecosystem/bitpie.png
+    url: https://bitpie.com
+    list:
+    - Pre-integration
+  - heading: Dether
+    status: preintegration
+    image: /assets/img/ecosystem/dether.png
+    url: https://dether.io
+    list:
+    - Pre-integration
+  - heading: BitFreezer
+    status: preintegration
+    image: /assets/img/ecosystem/bitfreezer.png
+    url: https://bitfreezer.app
+    list:
+    - Pre-integration
+
 - category: Exchanges
   items:
-  - heading: Some other
-    featured: true
-    image: /assets/img/ecosystem/edge.png
-    url: https://edge.app/
-    list:
-    - Fhghjgjh
-    - Send to FIO Address
-    - Receive to FIO address
-    - FIO Request
-    - FIO Domains
-    - FIO Data
-
-  - heading: Some other not featured
-    image: /assets/img/ecosystem/edge.png
-    url: https://edge.app/
+  - heading: Shapeshift
+    status: integrated
+    image: /assets/img/ecosystem/shapeshift.png
+    url: https://shapeshift.com
     list:
     - FIO Token
     - Send to FIO Address
     - Receive to FIO address
     - FIO Request
-    - FIO Domains
     - FIO Data
+  - heading: Liquid
+    image: /assets/img/ecosystem/edge.png
+    status: integrated
+    url: https://www.liquid.com
+    list:
+    - FIO Token
+    - Send to FIO Address
+    - Receive to FIO address
+    - FIO Request
+    - FIO Trading
+    - FIO Data
+  - heading: ChangeNow
+    status: integrated
+    image: /assets/img/ecosystem/changenow.png
+    url: https://changenow.io
+    list:
+    - FIO Token
+    - Send to FIO Address
+    - Receive to FIO address
+    - FIO Request
+    - FIO Trading
+  - heading: BitMax
+    status: integrated
+    image: /assets/img/ecosystem/bitmax.png
+    url: https://bitmax.io/en/global-digital-asset-platform
+    list:
+    - FIO Token
+    - Send to FIO Address
+    - Receive to FIO address
+  - heading: Binance
+    status: integrated
+    image: /assets/img/ecosystem/binance.png
+    url: https://www.binance.com/en
+    list:
+    - FIO Token
+  - heading: Bithumb
+    status: integrated
+    image: /assets/img/ecosystem/bithumb.png
+    url: https://www.bithumb.pro/en-us
+    list:
+    - FIO Token
+  - heading: Hoo
+    status: integrated
+    image: /assets/img/ecosystem/hoo.png
+    url: https://hoo.com
+    list:
+    - FIO Token
+  - heading: Hotbit
+    status: integrated
+    image: /assets/img/ecosystem/hotbit.png
+    url: https://www.hotbit.io
+    list:
+    - FIO Token
+  - heading: SimpleSwap
+    status: integrated
+    image: /assets/img/ecosystem/simpleswap.png
+    url: https://simpleswap.io
+    list:
+    - FIO Token
+  - heading: Currency Hub
+    status: integrated
+    image: /assets/img/ecosystem/currency-hub.png
+    url: https://currencyhub.io
+    list:
+    - FIO Token
+  - heading: CoinDCX
+    status: integrated
+    image: /assets/img/ecosystem/cd.png
+    url: https://coindcx.com
+    list:
+    - FIO Trading
+  - heading: ChangeHero
+    status: preintegration
+    image: /assets/img/ecosystem/changehero.png
+    url: https://changehero.io
+    list:
+    - Pre-integration
 
 - category: Payment Processors
+  items:
+  - heading: NOWPayments
+    status: integrating
+    image: /assets/img/ecosystem/nowpayments.png
+    url: https://nowpayments.io
+    list:
+    - Integrating
+  - heading: AtomicPay
+    status: preintegration
+    image: /assets/img/ecosystem/atomicpay.png
+    url: https://atomicpay.io/global/en
+    list:
+    - Pre-integration
+  - heading: Wampei
+    status: preintegration
+    image: /assets/img/ecosystem/Wampei.png
+    url: https://wampei.com
+    list:
+    - Pre-integration
 
 - category: Applications
+  items:
+  - heading: Nexo
+    status: preintegration
+    image: /assets/img/ecosystem/nexo.png
+    url: https://nexo.io
+    list:
+    - Pre-integration
 
 - category: FIO Tools
+  items:
+  - heading: Blockfolio
+    status: integrated
+    image: /assets/img/ecosystem/blockfolio.png
+    url: https://blockfolio.com
+    list:
+    - FIO Token
+  - heading: Bloks
+    status: integrated
+    image: /assets/img/ecosystem/bloksio.png
+    url: https://fio.bloks.io
+    list:
+    - FIO Domains
+  - heading: CoinMarketCap
+    status: integrated
+    image: /assets/img/ecosystem/cmc.png
+    url: https://coinmarketcap.com/currencies/fio-protocol/
+    list:
+    - FIO Token
+  - heading: CryptoRank
+    status: integrated
+    image: /assets/img/ecosystem/cryptorank.png
+    url: https://cryptorank.io/price/fioprotocol
+    list:
+    - FIO Token
+  - heading: CoinGecko
+    status: integrated
+    image: /assets/img/ecosystem/cg.png
+    url: https://www.coingecko.com/en/coins/fio-protocol
+    list:
+    - FIO Token
+  - heading: Anchor Wallet
+    status: integrated
+    image: /assets/img/ecosystem/anchor.png
+    url: https://greymass.com/en/anchor/
+    list:
+    - Universal FIO Signer
+    - Block Producer Voting
 
 - category: Protocols
+  items:
+  - heading: Haven Protocol
+    image: /assets/img/ecosystem/haven.png
+    url: https://havenprotocol.org
+  - heading: Pocket Network
+    image: /assets/img/ecosystem/pocket.png
+    url: https://pokt.network
