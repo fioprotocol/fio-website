@@ -1,4 +1,10 @@
-- category: Wallets
+- category: 
+    en: Wallets
+    zh: 钱包
+    ja: ウォレット
+    ko: 지갑
+    es: Billeteras
+    ru: Кошельки
   items:
   - heading: Edge Wallet
     featured: true
@@ -165,7 +171,13 @@
     list:
     - Pre-integration
 
-- category: Exchanges
+- category: 
+    en: Exchanges
+    zh: 交流
+    ja: 取引所
+    ko: 교환
+    es: Intercambios
+    ru: Биржи
   items:
   - heading: Shapeshift
     status: integrated
@@ -255,7 +267,13 @@
     list:
     - Pre-integration
 
-- category: Payment Processors
+- category: 
+    en: Payment Processors
+    zh: 付款处理器
+    ja: 決済サービス
+    ko: 결제 프로세서
+    es: Procesadores de Pago
+    ru: Платежные системы
   items:
   - heading: NOWPayments
     status: integrating
@@ -276,7 +294,13 @@
     list:
     - Pre-integration
 
-- category: Applications
+- category: 
+    en: Applications
+    zh: 应用程序
+    ja: アプリケーション
+    ko: 어플
+    es: Aplicaciones
+    ru: Приложения
   items:
   - heading: Nexo
     status: preintegration
@@ -285,7 +309,13 @@
     list:
     - Pre-integration
 
-- category: FIO Tools
+- category: 
+    en: FIO Tools
+    zh: FIO Tools
+    ja: FIO Tools
+    ko: FIO Tools
+    es: FIO Tools
+    ru: FIO Tools
   items:
   - heading: Blockfolio
     status: integrated
@@ -325,7 +355,13 @@
     - Universal FIO Signer
     - Block Producer Voting
 
-- category: Protocols
+- category: 
+    en: Protocols
+    zh: 通讯协定
+    ja: プロトコル
+    ko: 프로토콜
+    es: Protocolos
+    ru: Протоколы
   items:
   - heading: Haven Protocol
     image: /assets/img/ecosystem/haven.png

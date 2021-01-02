@@ -2,6 +2,7 @@
 layout: default
 ---
 
+{% assign page_lang = page.lang | default: site.lang %}
 <section class="section section--ecosystem">
   <div class="container">
     <header class="section__head">
@@ -17,7 +18,7 @@ layout: default
           <div class="section__body-inner row no-gutters">
               <div class="section__body-aside col-12 col-md-12">
                   <span class="angled-bg angled-bg--md bg--static">
-                      <span>{{category.category}}</span>
+                      <span>{{category.category[page_lang]}}</span>
                   </span>
                   <div class="boxes row no-gutters">
                     {% for item in category.items %}
