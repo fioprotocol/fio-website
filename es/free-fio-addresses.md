@@ -1,7 +1,7 @@
 ---
 layout: addresses
 title: Free FIO Addresses
-
+lang: es
 addresses:
   heading: Get started for free
   description: For a limited time, the Foundation for Interwallet Operability is paying for FIO Addresses for new users, which lets you use the FIO Protocol for the first year without any cost.
