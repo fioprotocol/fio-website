@@ -13,7 +13,6 @@ favicon:                  /assets/img/favicon.ico
 footer:
   copyright:              "&copy; 2020 FIO"
   link:
-    title:                Privacy Policy
     url:                  /privacy-policy/
 
 google_analytics:         GTM-WWSZ8NR

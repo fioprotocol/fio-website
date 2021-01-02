@@ -89,11 +89,12 @@
       <div id="cookie-notice" role="banner"
         class="cookie-revoke-hidden cn-position-bottom cn-effect-fade" aria-label="Cookie Notice"
         style="background-color: rgba(0,0,0,0.8);">
-        <div class="cookie-notice-container" style="color: #fff;"><span id="cn-notice-text" class="cn-text-container">We
+        <div class="cookie-notice-container" style="color: #fff;"><span id="cn-notice-text" class="cn-text-container">
+          {{ site.data.translation[page.lang].cookies_text | default: "We
             use cookies to ensure that we give you the best experience on our website. If you continue to use this site we
-            will assume that you are happy with it.</span><span id="cn-notice-buttons" class="cn-buttons-container"><a
+            will assume that you are happy with it." }}</span><span id="cn-notice-buttons" class="cn-buttons-container"><a
               href="#" onclick="agree(event)" id="cn-accept-cookie" data-cookie-set="accept" class="cn-set-cookie cn-button btn btn-primary"
-              aria-label="I Agree">I Agree</a></span><a href="#" onclick="closeNotice(event)" id="cn-close-notice" class="cn-close-icon" aria-label="I Agree"></a></div>
+              aria-label="I Agree">{{ site.data.translation[page.lang].footer_link | default: "I Agree" }}</a></span><a href="#" onclick="closeNotice(event)" id="cn-close-notice" class="cn-close-icon" aria-label="I Agree"></a></div>
 
       </div>
 

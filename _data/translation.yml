@@ -3,6 +3,9 @@ en:
   newsletter_description:                "Sign up for our monthly newsletter and join us on social!"
   newsletter_submit:                     "Summit"
   newsletter_email:                      "Enter Email Address"
+  footer_link:                           "Privacy Policy"
+  cookies_text:                           "We use cookies to ensure that we give you the best experience on our website. If you continue to use this site we will assume that you are happy with it."
+  cookies_button:                         "I Agree"
 
 zh:
   newsletter_heading:                    "保持联系"
