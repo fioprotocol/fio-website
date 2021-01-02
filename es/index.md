@@ -3,77 +3,77 @@ layout: home
 title: Foundation for Interwallet Operability
 lang: es
 intro:
-  heading: 誰もが利用できるように仮想通貨製品を簡単に
+  heading: Logrando que los productos criptográficos sean más sencillos para que cualquiera pueda usarlos
   image: /assets/img/fio-protocol.svg
   button_1:
-    text: FIOアドレスを登録
+    text: Registrar una dirección de FIO
     url: /getting-started/
   button_2:
-    text: FIOプロトコルをインテグレート
+    text: Integrar el protocolo FIO
     url: https://developers.fioprotocol.io
 
 features:
-  - heading: One Identity for all your Crypto
-    subheading: FIO Addresses
+  - heading: Una identidad para todos sus Criptos
+    subheading: DIRECCIONES FIO
     image: /assets/img/fio-addresses.svg
-    description: FIO Addresses are a single identifier that eliminates the need to see, or even know about, blockchain public addresses. It’s simple to register, easy to use, and works with every token/coin automatically.
+    description: Las direcciones FIO son un identificador único que elimina la necesidad de ver, o incluso conocer, las direcciones públicas de blockchain. Es fácil de registrar, fácil de usar y funciona con cada ficha/moneda automáticamente.
     button:
-      text: Register a FIO Address
+      text: Registrar una dirección de FIO
       url: /getting-started/
 
-  - heading: Don't just Send, Request
-    subheading: FIO Requests
+  - heading: No solo envíe, solicite
+    subheading: OLICITUDES FIO
     subheading_style: light
     image: /assets/img/fio-requests.svg
     align: left
-    description: Stop asking people what you owe them – let them tell you. Enjoy in-app requests for funds, done in an encrypted and private manner – specify the type and amount and eliminate confusion for the sender
-    subtext: Included with a FIO Address
+    description: Deje de preguntarle a la gente lo que les debe – deje que se lo digan. Disfrute de las solicitudes de fondos en la aplicación, realizadas de manera encriptada y privada – especifique el tipo y la cantidad y elimine la confusión para el remitente
+    subtext: Incluido con una dirección FIO
 
-  - heading: Transactions with Context
-    subheading: FIO Data
+  - heading: Transacciones con contexto
+    subheading: DATOS FIO
     subheading_style: light
     image: /assets/img/fio-data.svg
-    description: Attach standardized metadata to any crypto transaction, ranging from a simple note to structured data like an order card or invoice. Remember the “why” behind every transaction
-    subtext: Included with a FIO Address
+    description: Adjunte metadatos estandarizados a cualquier transacción criptográfica, desde una simple nota hasta datos estructurados, como una tarjeta de pedido o una factura. Recuerde el “por qué” detrás de cada transacción
+    subtext: Incluido con una dirección FIO
 
 features_cta: 
-  text: See the Roadmap for more...
+  text: Vea la hoja de ruta para más...
   url: https://kb.fioprotocol.io/foundation/future-projects
 
 integrate:
-  heading: Integrate the FIO Protocol
-  description: Make your users' lives easier by improving usability
+  heading: Integrar el protocolo FIO
+  description: Facilite la vida de sus usuarios mejorando la usabilidad
   cards:
-    - heading: Reduce Customer Service Issues
-      description: Eliminate mistakes in sending and receiving crypto and focus on your core product
+    - heading: Reduzca los problemas de servicio al cliente
+      description: Elimine errores al enviar y recibir criptografía y concéntrese en su producto principal
       image: /assets/img/feature-image1.png
-    - heading: Create New Experiences
-      description: Don't be limited to hard-to-use user flows - automate the pain away
+    - heading: Cree nuevas experiencias
+      description: No se limite a los flujos de usuarios difíciles de usar, automatice el dolor
       image: /assets/img/feature-image2.png
-    - heading: Support Blockchain Usability
-      description: The FIO Protocol is designed to serve the entire blockchain ecosystem, join the cause!
+    - heading: Apoye el Uso de Blockchain
+      description: El Protocolo FIO está diseñado para servir al sistema completo de blockchain, ¡únase a la causa!
       image: /assets/img/feature-image3.png
   button:
-    text: Go to Developer Hub
+    text: Ir al Centro Desarrollador
     url: https://developers.fioprotocol.io
 
 companies:
-  heading: The FIO Ecosystem
-  description: The companies, organizations, and foundations that support the ongoing development of the FIO Protocol
+  heading: El Ecosistema FIO
+  description: Las compañías, organizaciones y fundaciones que apoyan el desarrollo continuo del Protocolo FIO
   button:
-    text: View All
+    text: Ver todo
     url: /ecosystem/
 
 testimonials:
-  heading: Testimonials
+  heading: Testimonios
 
 news:
-  heading: News and Events
+  heading: Noticias y eventos
   heading_blog: Featured Blog
   heading_media: Featured Media
   heading_news: Featured News
   button:
-    text: View All
+    text: Ver todo
     url: /press/
 
 ---
