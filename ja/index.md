@@ -13,67 +13,67 @@ intro:
     url: https://developers.fioprotocol.io
 
 features:
-  - heading: One Identity for all your Crypto
-    subheading: FIO Addresses
+  - heading: すべての仮想通貨を1つの識別子で
+    subheading: IOアドレス
     image: /assets/img/fio-addresses.svg
-    description: FIO Addresses are a single identifier that eliminates the need to see, or even know about, blockchain public addresses. It’s simple to register, easy to use, and works with every token/coin automatically.
+    description: FIOアドレスは単独の識別子で、ブロックチェーンの公共アドレスを見る必要がなくなります。登録は簡単で、使いやすく、自動的にすべてのトークンやコインで利用できます。
     button:
-      text: Register a FIO Address
+      text: FIOアドレスを登録
       url: /getting-started/
 
-  - heading: Don't just Send, Request
-    subheading: FIO Requests
+  - heading: 送信だけでなく、リクエストも
+    subheading: FIOリクエスト
     subheading_style: light
     image: /assets/img/fio-requests.svg
     align: left
-    description: Stop asking people what you owe them – let them tell you. Enjoy in-app requests for funds, done in an encrypted and private manner – specify the type and amount and eliminate confusion for the sender
-    subtext: Included with a FIO Address
+    description: 送金額を忘れたら、リクエストしてもらえば良いのです。アプリから送金をリクエストでき、通信は暗号化されるのでプライバシーが保護されます。種類と金額を指定するので誤解はありません。
+    subtext: FIOアドレスに含まれるもの
 
-  - heading: Transactions with Context
-    subheading: FIO Data
+  - heading: 背景が分かる取引を
+    subheading: FIOデータ
     subheading_style: light
     image: /assets/img/fio-data.svg
-    description: Attach standardized metadata to any crypto transaction, ranging from a simple note to structured data like an order card or invoice. Remember the “why” behind every transaction
-    subtext: Included with a FIO Address
+    description: 簡単なメモだけでなく、注文カードや請求書などの構造化したデータまで、すべての仮想通貨取引に標準化されたメタデータを添付することができます。すべての取引の「なぜ」を記録しましょう
+    subtext: FIOアドレスに含まれるもの
 
 features_cta: 
-  text: See the Roadmap for more...
+  text: 詳しくはロードマップをご覧ください…
   url: https://kb.fioprotocol.io/foundation/future-projects
 
 integrate:
-  heading: Integrate the FIO Protocol
-  description: Make your users' lives easier by improving usability
+  heading: FIOプロトコルをインテグレート
+  description: 可用性を改善してユーザーの生活を便利に
   cards:
-    - heading: Reduce Customer Service Issues
-      description: Eliminate mistakes in sending and receiving crypto and focus on your core product
+    - heading: カスタマーサービスのトラブルを削減
+      description: 仮想通貨を送ったり受け取ったりする時のミスをなくし、コアとなる製品に力を入れることができます
       image: /assets/img/feature-image1.png
-    - heading: Create New Experiences
-      description: Don't be limited to hard-to-use user flows - automate the pain away
+    - heading: 新しいエクスペリエンスを生み出しましょう
+      description: 使いづらいユーザーフローに制限されないで、自動化しましょう
       image: /assets/img/feature-image2.png
-    - heading: Support Blockchain Usability
-      description: The FIO Protocol is designed to serve the entire blockchain ecosystem, join the cause!
+    - heading: ブロックチェーンの可用性をサポート
+      description: TFIOプロトコルはブロックチェーンのエコシステム全体を支援するように設計されています。ご参加ください！
       image: /assets/img/feature-image3.png
   button:
-    text: Go to Developer Hub
+    text: デベロッパーハブへ
     url: https://developers.fioprotocol.io
 
 companies:
-  heading: The FIO Ecosystem
-  description: The companies, organizations, and foundations that support the ongoing development of the FIO Protocol
+  heading: FIOエコシステム
+  description: FIOプロトコルの開発をサポートしている企業、組織、および財団
   button:
-    text: View All
+    text: すべて見る
     url: /ecosystem/
 
 testimonials:
-  heading: Testimonials
+  heading: 推薦
 
 news:
-  heading: News and Events
+  heading: ニュース・企画
   heading_blog: Featured Blog
   heading_media: Featured Media
   heading_news: Featured News
   button:
-    text: View All
+    text: すべて見る
     url: /press/
 
 ---
