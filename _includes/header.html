@@ -4,10 +4,18 @@
     <div class="header__inner">
 
       <div class="header__aside">
-        <a href="{{ "/" | relative_url }}" class="logo">
-          <img src="{{ site.logo | absolute_url }}" alt="{{ site.title }}">
-          FIO
-        </a>
+        {% if page_lang == 'en' %}
+          <a href="{{ "/" | relative_url }}" class="logo">
+            <img src="{{ site.logo | absolute_url }}" alt="{{ site.title }}">
+            FIO
+          </a>
+        {% else %}
+          <a href="{{ relative_url | append: '/' | append: page_lang }}" class="logo">
+            <img src="{{ site.logo | absolute_url }}" alt="{{ site.title }}">
+            FIO
+          </a>          
+        {% endif %}
+
 
         <a href="#" class="btn-menu">
           <span></span>
@@ -24,7 +32,11 @@
               {% if link.url contains 'http' %}
                 {% assign domain = '' %}
               {% else %}
-                {% assign domain = '' | relative_url %}
+                {% if page_lang == 'en' %}
+                  {% assign domain = '' | relative_url %}
+                {% else %}
+                  {% assign domain = '' | relative_url | append: '/' | append: page_lang %}
+                {% endif %}
               {% endif %}
               {% if link.title %}
                 <li class="menu-item{% if link.dropdown != null %} menu-item-has-children has--dropdown{% endif %}">
@@ -40,8 +52,12 @@
                           {% if child.url contains 'http' %}
                             {% assign domain = '' %}
                           {% else %}
-                            {% assign domain = '' | relative_url %}
-                          {% endif %}
+                            {% if page_lang == 'en' %}
+                              {% assign domain = '' | relative_url %}
+                            {% else %}
+                              {% assign domain = '' | relative_url | append: '/' | append: page_lang %}
+                            {% endif %}
+                        {% endif %}
                           <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="{{ domain }}{{ child.url }}"{% if child.blank %} target="_blank" rel="noopener" {% endif %}>{{ child.title[page_lang] }}</a></li>
                         {% else %}
                           <li class="uk-nav-header">{{ child.title[page_lang] }}</li>
