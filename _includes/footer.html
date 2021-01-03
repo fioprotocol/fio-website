@@ -13,7 +13,7 @@
                 {% if page_lang == 'en' %}
                   {% assign domain = '' | relative_url %}
                 {% else %}
-                  {% assign domain = '' | relative_url | append: '/' | append: page_lang %}
+                  {% assign domain = '/' | append: page_lang | relative_url %}
                 {% endif %}
               {% endif %}
               {% if link.title[page_lang] %}
