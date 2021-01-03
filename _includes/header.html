@@ -35,7 +35,7 @@
                 {% if page_lang == 'en' %}
                   {% assign domain = '' | relative_url %}
                 {% else %}
-                  {% assign domain = '' | relative_url | append: '/' | append: page_lang %}
+                  {% assign domain = '/'| append: page_lang | append: '/ | relative_url'  %}
                 {% endif %}
               {% endif %}
               {% if link.title %}
@@ -55,7 +55,7 @@
                             {% if page_lang == 'en' %}
                               {% assign domain = '' | relative_url %}
                             {% else %}
-                              {% assign domain = '/' | append: page_lang | append: '/' | relative_url %}
+                              {% assign domain = '' | relative_url | append: '/' | append: page_lang %}
                             {% endif %}
                         {% endif %}
                           <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="{{ domain }}{{ child.url }}"{% if child.blank %} target="_blank" rel="noopener" {% endif %}>{{ child.title[page_lang] }}</a></li>
