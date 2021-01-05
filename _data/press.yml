@@ -1,42 +1,873 @@
-- title: First are many featured post variations of passages of Lorem Ipsum available
+- title: FIO Release 2.2 on Mainnet
   featured_blog: true
-  image: https://via.placeholder.com/600x320
-  url: https://edge.app/
-  publication: Lorem
+  image: assets/img/press/FIO-22.png
+  url: https://medium.com/fio-blog/fio-release-2-2-on-mainnet-a715e1579fa
+  publication: Fio Blog
+  date: 11/06/2020
+
+- title: FIO Protocol Overcomes The Barrier Of Cryptocurrency Usability To Enable Adoption
+  featured_media: true
+  featured: true
+  image: assets/img/press/block.png
+  url: https://blockmanity.com/news/feature/fio-protocol-overcomes-the-barrier-of-cryptocurrency-usability-to-enable-adoption/
+  publication: Blockmanity
   date: 10/02/2020
 
-- title: Second  are many variations of passages of Lorem Ipsum available
-  image: https://via.placeholder.com/600x120
-  url: https://edge.app/
-  publication: Lorem
-  date: 10/02/2019
-
-- title: Third are many featured media variations of passages of Lorem Ipsum available
-  featured: true
-  featured_media: true
-  image: https://via.placeholder.com/600x120
-  url: https://edge.app/
-  publication: Lorem
-  date: 10/02/2018
-
-- title: Fourth featured news are many variations of passages of Lorem Ipsum available
+- title: BitMax.io Announced the Listing of FIO Protocol ($FIO) with Airdrop, Investment Product, Trading Contests, & Bounty Program
   featured: true
   featured_news: true
-  image: https://via.placeholder.com/600x120
-  url: https://edge.app/
-  publication: Lorem
-  date: 10/02/2018
+  image: assets/img/press/cryptoglobe.png
+  url: https://www.cryptoglobe.com/latest/2020/07/bitmax-io-announced-the-listing-of-fio-protocol-fio-with-airdrop-investment-product-trading-contests-bounty-program/
+  publication: CryptoGlobe
+  date: 07/08/2020
 
-- title: Fith are many variations of passages of Lorem Ipsum available
-  featured: true
-  image: https://via.placeholder.com/600x120
-  url: https://edge.app/
-  publication: Lorem
-  date: 10/02/2018
+- title: FIO Protocol Launches Mainnet Simplifying Paying, Sending & Accepting Crypto
+  url: https://www.chipin.com/fio-protocol-launches-mainnet-simplifying-paying-sending-accepting-crypto/
+  publication: ChipIn
+  date: 04/08/2020
 
-- title: Fith are many variations of passages of Lorem Ipsum available
+- title: FIO protocol aims to make crypto transactions easy, but still private
   featured: true
-  image: https://via.placeholder.com/600x120
-  url: https://edge.app/
-  publication: Lorem
-  date: 10/02/2018
+  image: assets/img/press/decrypt.png
+  url: https://decrypt.co/24993/fio-protocol-aims-to-make-crypto-transactions-easy-but-still-private
+  publication: Decrypt
+  date: 04/08/2020
+
+- title: How to Get Your Mom to Start Using Cryptocurrency
+  featured: true
+  image: assets/img/press/medium.png
+  url: https://medium.com/@bradspannbauer/how-to-get-your-mom-to-start-using-cryptocurrency-2fe50d279221
+  publication: Medium
+  date: 04/07/2020
+
+- title: P2P Protocol Aims to Simplify Crypto Wallet Transactions With Domain Names
+  featured: true
+  image: assets/img/press/cointelegraph.png
+  url: https://cointelegraph.com/news/p2p-protocol-aims-to-simplify-crypto-wallet-transactions-with-domain-names
+  publication: CoinTelegraph
+  date: 04/07/2020
+
+- title: 3,806 USDC donation to GiveCrypto facilitated by FIO Protocol pre-sale
+  featured: true
+  image: assets/img/press/EIN.png
+  url: https://www.einnews.com/pr_news/511564458/3-806-usdc-donation-to-givecrypto-facilitated-by-fio-protocol-pre-sale
+  publication: EIN News Desk
+  date: 03/09/2020
+
+- title: FIO Wins Best in Show at BitAngels Pitch Competition during CoinAgenda Caribbean
+  url: https://finance.yahoo.com/news/fio-wins-best-show-bitangels-203010065.html?guccounter=1
+  publication: Yahoo Finance
+  date: 03/04/2020
+
+- title: 	Startup moves to (finally) improve blockchain usability for ordinary people
+  url: https://150sec.com/startup-moves-to-finally-improve-blockchain-usability-for-ordinary-people/13113/
+  publication: 150sec
+  date: 12/05/2019
+
+- title: Guarda Wallet chooses FIO Protocol for improved crypto usability
+  featured: true
+  image: assets/img/press/crypto-reporter.png
+  url: https://www.crypto-reporter.com/press-releases/guarda-wallet-fio-protocol-10853/
+  publication: Crypto Reporter
+  date: 12/05/2019
+
+- title: Nexo partners with FIO to improve blockchain usability
+  featured: true
+  image: assets/img/press/ambcrypto.png
+  url: https://eng.ambcrypto.com/nexo-partners-with-fio-to-improve-blockchain-usability/
+  publication: AMBCrypto
+  date: 11/29/2019
+
+- title: Crypto Lending Platform Nexo Joins FIO, As Usability Remains Top Priority
+  url: https://www.chipin.com/crypto-lending-platform-nexo-joins-fio/
+  publication: ChipIn
+  date: 11/19/2019
+
+- title: "PR: Crypto lending platform Nexo joins FIO, as usability remains top priority"
+  url: https://www.crypto-reporter.com/press-releases/nexo-fio-10632/
+  publication: Crypto Reporter
+  date: 11/19/2019
+
+- title: 	Crypto Lending Platform Nexo Joins FIO, As Usability Remains Top Priority
+  url: https://www.einnews.com/pr_news/502726514/crypto-lending-platform-nexo-joins-fio-as-usability-remains-top-priority
+  publication: EIN News
+  date: 11/19/2019
+
+- title: Bitcoin Advisory founder shares research that shows 6.2 percent of American citizens own Bitcoin
+  url: https://www.tronweekly.com/bitcoin-advisory-founder-shares-research-that-shows-6-2-percent-of-american-citizens-own-bitcoin/
+  publication: Tron Weekly
+  date: 11/11/2019
+
+- title: FIO Testnet and Developer Docs Released
+  featured: true
+  image: assets/img/press/medium.png
+  url: https://medium.com/fio-blog/fio-testnet-and-developer-docs-released-e8cf64f7d9d9
+  publication: Medium
+  date: 11/01/2019
+
+- title: FIO Protocol Developer Company Dapix Closes $5.7 Million
+  url: https://pulse2.com/dapix-closes-5-7-million/
+  publication: Pulse2
+  date: 09/10/2019
+
+- title: Binance Labs leads $5.7 million Series A in Dapix to build interoperable blockchain tech
+  url: https://decrypt.co/8950/binance-labs-5-million-funding-dapix-interoperable-blockchain-tech
+  publication: Decrypt
+  date: 09/05/2019
+
+- title: Binance Labs Leads $5.7 Million Series A for Blockchain Maker Dapix
+  featured: true
+  image: assets/img/press/coindesk.png
+  url: https://www.coindesk.com/binance-labs-leads-5-7-million-series-a-for-dpos-blockchain-maker-dapix
+  publication: Coindesk
+  date: 09/05/2019
+
+- title: FIO protocol nets $5.7 million Series A led by Binance Labs to make wallet transactions more user friendly
+  url: https://www.theblockcrypto.com/post/38526/fio-protocol-nets-5-7-million-series-a-led-by-binance-labs-to-make-wallet-transactions-more-user-friendly
+  publication: The Block
+  date: 09/05/2019
+
+- title: Binance Labs Leads $5.7M Series A Round to Launch FIO Protocol
+  url: https://cointelegraph.com/news/binance-labs-leads-57m-series-a-round-to-launch-fio-protocol
+  publication: Cointelegraph
+  date: 09/05/2019
+
+- title: Binance Labs leads $5.7 million Series A in Dapix to build interoperable blockchain tech
+  url: https://finance.yahoo.com/news/binance-labs-leads-5-7-140041646.html
+  publication: Yahoo Finance
+  date: 09/05/2019
+
+- title: Binance led the $ 5.7 million investment round of the developer of the standard for crypto payments
+  url: https://ttrcoin.com/binance-vozglavila-57-millionnyy-investraund-razrabotchika-standarta-dlya-kripto-platejey.8110/
+  publication: TTR Coin
+  date: 09/05/2019
+
+- title: Developers of the FIO Protocol, called to become a single standard for cryptocurrency payments, raised $ 5.7 million
+  url: https://forklog.com/razrabotchiki-prizvannogo-stat-edinym-standartom-dlya-kriptovalyutnyh-platezhej-fio-protocol-privlekli-5-7-mln/
+  publication: Fork Log
+  date: 09/05/2019
+
+- title: $5.7 Million Raised by FIO Protocol Developer in Funding Round Led by Binance Labs
+  url: https://coincodex.com/article/4991/57-million-raised-by-fio-protocol-developer-in-funding-round-led-by-binance-labs/
+  publication: Coin Codex
+  date: 09/05/2019
+
+- title: Dapix nets $5.7m Series A
+  url: https://www.pehub.com/2019/09/dapix-nets-5-7-mln-series-a/
+  publication: Pehub
+  date: 09/05/2019
+
+- title: Binance Labs Leads USD 5.7 Million Series A for Blockchain Maker Dapix
+  url: https://www.financialbuzz.com/binance-labs-leads-usd-5-7-million-series-a-for-blockchain-maker-dapix/
+  publication: Financial Buzz
+  date: 09/05/2019
+
+- title: 	Binance Labs leads $5.7 million Series A funding round to launch FIO Protocol
+  url: https://www.cryptoninjas.net/2019/09/05/binance-labs-leads-5-7-million-raise-for-fio-protocol/
+  publication: CryptoNinjas
+  date: 09/05/2019
+
+- title: Blockchain Maker Dapix Secures Nearly $6 Million In Investment Round Led By Binance Labs
+  url: https://bitcoinexchangeguide.com/blockchain-maker-dapix-secures-nearly-6-million-in-investment-round-led-by-binance-labs/
+  publication: Bitcoin Exchange Guide
+  date: 09/05/2019
+
+- title: Binance Labs Leads $5.7M Series A Round to Launch FIO Protocol
+  url: https://messari.io/article/binance-labs-leads-5-7m-series-a-round-to-launch-fio-protocol
+  publication: Messari
+  date: 09/05/2019
+
+- title: Binance Labs leads $5.7 million raise for FIO Protocol
+  url: https://www.americancryptoassociation.com/2019/09/05/binance-labs-leads-5-7-million-raise-for-fio-protocol/
+  publication: American Crypto Association
+  date: 09/05/2019
+
+- title: Binance Labs Spearheads $5.7 Million Series A for Blockchain Firm Dapix
+  url: https://coinbeat.com/binance-labs-spearheads-5-7-million-series-a-for-blockchain-firm-dapix/
+  publication: Coinbeat
+  date: 09/05/2019
+
+- title: Enhanced usability for decentralised wallets as Atomic Wallet joins FIO
+  url: https://coinrivet.com/enhanced-usability-for-decentralised-wallets-as-atomic-wallet-joins-fio/
+  publication: Coin Rivet
+  date: 08/18/2019
+
+- title: Atomic Wallet joins Foundation for Interwallet Operability
+  url: https://www.finextra.com/pressarticle/79485/atomic-wallet-joins-foundation-for-interwallet-operability
+  publication: Finextra
+  date: 08/14/2019
+
+- title: Atomic Wallet, FIO team up for decentralised wallets
+  url: https://thepaypers.com/cryptocurrencies-bitcoin-virtual-currencies/atomic-wallet-fio-team-up-for-decentralised-wallets/780212-39
+  publication: The Paypers
+  date: 08/14/2019
+
+- title: Atomic Wallet joins the Foundation for Interwallet Operability (FIO)
+  featured: true
+  image: assets/img/press/cryptoninjas.png
+  url: https://www.cryptoninjas.net/2019/08/13/atomic-wallet-joins-the-foundation-for-interwallet-operability-fio/
+  publication: CryptoNinjas
+  date: 08/13/2019
+
+- title: "Not Just for Trading: Start Spending Your Cryptocurrency Today"
+  url: https://captainaltcoin.com/not-just-for-trading-start-spending-your-cryptocurrency-today/
+  publication: Captain Alt Coin
+  date: 08/06/2019
+
+- title: Bitcoin Cash Partners With Blockchain Agnostic Protocol
+  url: https://insidebitcoins.com/news/bitcoin-cash-partners-with-blockchain-agnostic-protocol/233208
+  publication: Inside Bitcoins
+  date: 07/19/2019
+
+- title: Bitcoin.com wallet joins blockchain consortium FIO
+  url: https://www.crypto-reporter.com/press-releases/bitcoin-com-fio-9516/
+  publication: Crypto Reporter
+  date: 07/19/2019
+
+- title: Bitcoin Cash Maximalist Joins ‘Blockchain-Agnostic’ Crypto Wallet Project
+  featured: true
+  image: assets/img/press/CCN.png
+  url: https://www.ccn.com/bitcoin-cash-wallet-fio-protocol/
+  publication: CCN
+  date: 07/18/2019
+
+- title: Bitcoin.com Wallet Joins Blockchain Consortium FIO
+  featured: true
+  image: assets/img/press/bitcoincom-news.png
+  url: https://news.bitcoin.com/pr-bitcoin-com-wallet-joins-blockchain-consortium-fio/
+  publication: Bitcoin.com
+  date: 07/16/2019
+
+- title: Bitcoin.com Wallet Joins Blockchain Consortium FIO
+  url: http://blockchaingrade.org/pr-bitcoin-com-wallet-joins-blockchain-consortium-fio
+  publication: Blockchain Grade
+  date: 07/16/2019
+
+- title: Bitcoin.com Wallet Joins Blockchain Consortium FIO
+  url: https://www.facebook.com/WorldNewsOfCryptocurrency/posts/pr-bitcoincom-wallet-joins-blockchain-consortium-fio-popular-bch-and-btc-wallet-/392372498063701/
+  publication: World News of Cryptocurrency
+  date: 07/16/2019
+
+- title: Bitcoin.com Wallet Joins Blockchain Consortium FIO
+  url: https://www.businesstelegraph.co.uk/pr-bitcoin-com-wallet-joins-blockchain-consortium-fio/
+  publication: Business Telegraph
+  date: 07/16/2019
+
+- title: Bitcoin.com Wallet Joins Blockchain Consortium FIO
+  url: https://alpha-maven.com/news/crypto/pr-bitcoincom-wallet-joins-blockchain-consortium-fio-bitcoin-news
+  publication: Hedge Maven
+  date: 07/16/2019
+
+- title: Bitcoin.com Wallet Joins Blockchain Consortium FIO
+  url: https://www.americancryptoassociation.com/2019/07/16/pr-bitcoin-com-wallet-joins-blockchain-consortium-fio/
+  publication: American Crypto Association
+  date: 07/16/2019
+
+- title: Bitcoin.com Wallet Joins Blockchain Consortium FIO
+  url: https://www.cryptocrypto247.com/2019/07/16/pr-bitcoin-com-wallet-joins-blockchain-consortium-fio/
+  publication: Crypto Crypto 24/7
+  date: 07/16/2019
+
+- title: Bitcoin.com Wallet Joins Blockchain Consortium FIO
+  url: https://cryptonewsvault.com/pr-bitcoin-com-wallet-joins-blockchain-consortium-fio/
+  publication: Crypto News Vault
+  date: 07/16/2019
+
+- title: Bitcoin.com Wallet Joins Blockchain Consortium FIO
+  url: https://www.bulletincrypto.com/pr-bitcoin-com-wallet-joins-blockchain-consortium-fio/
+  publication: Bulletin Crypto
+  date: 07/16/2019
+
+- title: Bitcoin.com Wallet Joins Blockchain Consortium FIO
+  url: http://cryptobuzz.news/pr-bitcoin-com-wallet-joins-blockchain-consortium-fio/
+  publication: Crypto Buzz
+  date: 07/16/2019
+
+- title: Bitcoin.com Wallet Joins Blockchain Consortium FIO
+  url: https://cryptocoinsnews.info/pr-bitcoin-com-wallet-joins-blockchain-consortium-fio/
+  publication: Crypto Coins News
+  date: 07/16/2019
+
+- title: Bitcoin.com Wallet Joins Blockchain Consortium FIO
+  url: https://en.cryptonomist.ch/2019/07/18/bitcoin-com-wallet-fio-consortium/
+  publication: Cryptonomist
+  date: 07/16/2019
+
+- title: Crypto Exchange ChangeNOW Embraces Innovative Usability Protocol from FIO
+  url: https://www.unlock-bc.com/news/2019-07-02/changenow-joins-foundation-for-interwallet-operability
+  publication: Unlock BC
+  date: 07/02/2019
+
+- title: Crypto Exchange ChangeNOW Embraces Innovative Usability Protocol from FIO
+  url: https://theblockchainland.com/2019/07/01/crypto-exchange-changenow-embraces-innovative-usability-protocol-from-fio/
+  publication: The Blockchain Land
+  date: 07/02/2019
+
+- title: Crypto Exchange ChangeNOW Embraces Innovative Usability Protocol from FIO
+  url: https://crypto.bi/z/threads/crypto-exchange-changenow-embraces-innovative-usability-protocol-from-fio.1387/
+  publication: Crypto Biz
+  date: 07/02/2019
+
+- title: Crypto exchange ChangeNOW embraces innovative usability protocol from FIO
+  featured: true
+  image: assets/img/press/crypto-reporter.png
+  url: https://www.crypto-reporter.com/press-releases/changenow-embraces-innovative-usability-protocol-from-fio-9428/
+  publication: Crypto Reporter
+  date: 07/02/2019
+
+- title: Interview with David at Malta Summit
+  featured: true
+  image: assets/img/press/coinrivet.png
+  url: https://coinrivet.com/dapix-ceo-its-going-to-do-for-blockchain-what-http-did-for-the-internet/
+  publication: Coin Rivet
+  date: 06/19/2019
+
+- title: Interview with David Gold of FIO Protocol
+  url: https://bitcoinchaser.com/interview-with-david-gold-fio-protocol/
+  publication: Bitcoin Chaser
+  date: 06/17/2019
+
+- title: Facebook Stablecoin Whitepaper Coming, Coin Usability Still Murky
+  url: https://investingnews.com/daily/tech-investing/blockchain-investing/facebook-stablecoin-whitepaper-coming/
+  publication: Investing News
+  date: 06/13/2019
+
+- title: FIO And Reducing The Risk of Sending and Receiving Cryptos With David Gold
+  url: https://irishtechnews.ie/reducing-risk-cryptos-with-fio/
+  publication: Irish Tech News
+  date: 05/31/2019
+
+- title: Stablecoins May be the Future of Money
+  featured: true
+  image: assets/img/press/business-blockchain-hq.png
+  url: https://businessblockchainhq.com/business-blockchain-news/stablecoins-may-be-the-future-of-money/
+  publication: Business Blockchain HQ
+  date: 05/29/2019
+
+- title: CEO at FIO Protocol, David Gold Speaks Exclusively With CryptoNewsZ
+  url: https://www.cryptonewsz.com/exclusive-interview-with-david-gold-ceo-and-founder-at-fio
+  publication: CryptoNewsZ
+  date: 05/24/2019
+
+- title: Crypto’s Complex Flow Makes Bitcoin, Ethereum and Litecoin Tougher to Use Than PayPal
+  featured: true
+  image: assets/img/press/the-daily-hodl.png
+  url: https://dailyhodl.com/2019/04/28/cryptos-complex-flow-makes-bitcoin-ethereum-and-litecoin-tougher-to-use-than-paypal/
+  publication: The Daily Hodl
+  date: 04/28/2019
+
+- title: Enjin joins FIO
+  url: https://appdevelopermagazine.com/enjin-joins-fio/
+  publication: App Developer Magazine
+  date: 04/23/2019
+
+- title: Enjin Wallet brings usability to blockchain gaming by joining FIO
+  url: https://coinrivet.com/enjin-wallet-brings-usability-to-blockchain-gaming-by-joining-fio/
+  publication: Coin Rivet
+  date: 04/21/2019
+
+- title: Enjin Wallet brings usability to blockchain gaming by joining FIO
+  url: https://www.crypto-reporter.com/press-releases/enjin-wallet-fio-8897/
+  publication: Crypto Reporter
+  date: 04/18/2019
+
+- title: Interview with iBlock.TV
+  url: https://www.youtube.com/watch?v=-d3j2AW0Ib8
+  publication: iBlock.TV
+  date: 04/18/2019
+
+- title: 	Enjin Joins Foundation for Interwallet Operability
+  url: https://ihodl.com/topnews/2019-04-17/enjin-joins-foundation-interwallet-operability/
+  publication: iHodl
+  date: 04/17/2019
+
+- title: Enjin Wallet Brings Usability to Blockchain Gaming by Joining FIO
+  url: https://invisioncommunity.co.uk/enjin-wallet-brings-usability-to-blockchain-gaming-by-joining-fio/
+  publication: Invision Community
+  date: 04/17/2019
+
+- title: Enjin Wallet Joins Foundation for Interwallet Operability To Make Blockchain As Easy As Possible
+  url: https://usethebitcoin.com/enjin-wallet-joins-foundation-for-interwallet-operability-to-make-blockchain-as-easy-as-possible/
+  publication: Use the Bitcoin
+  date: 04/17/2019
+
+- title: Enjin & FIO Bringing Increased Usability to Blockchain Gaming
+  featured: true
+  image: assets/img/press/enjin-mark.png
+  url: https://blog.enjincoin.io/enjin-fio-bringing-increased-usability-to-blockchain-gaming-4055eeca5ae2
+  publication: Enjin Blog
+  date: 04/17/2019
+
+- title: Enjin launches blockchain asset support for EnjinX
+  url: https://www.cryptoninjas.net/2019/04/16/enjin-launches-blockchain-asset-support-for-enjinx/
+  publication: CryptoNinjas
+  date: 04/16/2019
+
+- title: Making it Easy to Send and Receive Crypto
+  featured: true
+  image: assets/img/press/cryptoglobe.png
+  url: https://www.cryptoglobe.com/latest/2019/04/making-it-easy-to-send-and-receive-crypto-interview-with-fio-protocol-founder-david-gold/
+  publication: Crypto Globe
+  date: 04/10/2019
+
+- title: Can Crypto Beat Its Massive Usability Problems?
+  featured: true
+  image: assets/img/press/hackernoon.png
+  url: https://hackernoon.com/can-crypto-beat-its-massive-usability-problems-44bd7a2a565b
+  publication: Hackernoon
+  date: 04/03/2019
+
+- title: Infinito Wallet is a Leading Universal Wallet for Crypto Users
+  url: https://www.dailycoinews.com/dailycoinews/article/read.do?articleNo=2796&lang=kr
+  publication: Daily Coin News
+  date: 03/26/2019
+
+- title: FIO welcomes Infinito as Asian crypto projects look to actively address blockchain usability
+  url: https://www.crypto-reporter.com/press-releases/fio-infinito-8707/
+  publication: Crypto Reporter
+  date: 03/26/2019
+
+- title: Infinito Wallet Joins the Foundation for Interwallet Operability (FIO) Alliance
+  url: https://bitcoinexchangeguide.com/infinito-wallet-joins-the-foundation-for-interwallet-operability-fio-alliance/
+  publication: Bitcoin Exchange Guide
+  date: 03/26/2019
+
+- title: Crypto Consortium FIO Welcomes Infinito Wallet To The Fold
+  featured: true
+  image: assets/img/press/crypto-briefing.jpg
+  url: https://cryptobriefing.com/crypto-fio-welcomes-infinito-wallet/
+  publication: Crypto Briefing
+  date: 03/25/2019
+
+- title: Infinito joins Foundation for Interwallet Operability
+  url: https://www.unlock-bc.com/news/2019-03-25/infinito-joins-foundation-for-interwallet-operability
+  publication: Unlock BC
+  date: 03/25/2019
+
+- title: FIO Welcomes Infinito As Asian Crypto Projects Look To Actively Address Blockchain Usability
+  url: https://cryptodost.io/press-release/fio-welcomes-infinito-as-asian-crypto-projects-look-to-actively-address-blockchain-usability.html
+  publication: Crypto Dost
+  date: 03/25/2019
+  
+- title: FIO welcomes Infinito as Asian crypto projects address blockchain usability
+  url: https://www.banklesstimes.com/2019/03/25/fio-welcomes-infinito-as-asian-crypto-projects-address-blockchain-usability/
+  publication: Bankless Times
+  date: 03/25/2019
+
+- title: 	Midas Protocol Integrates with Kyber Network and IDEX to Create Universal Wallet
+  url: https://nulltx.com/midas-protocol-integrates-with-kyber-network-and-idex-to-create-universal-wallet/
+  publication: NullTX
+  date: 03/22/201
+
+- title: "Bitcoin blues: cryptocurrency users lack confidence in transactions"
+  url: https://treasurytoday.com/insight-and-analysis/short-reads/bitcoin-blues-cryptocurrency-users-lack-confidence-in-transactions-ttti
+  publication: Treasury Today
+  date: 03/19/2019
+
+- title: "Crypto Survey: 60% of crypto users uncomfortable after sending payments"
+  url: https://www.leaprate.com/experts/tom-cleveland/crypto-survey-60-of-crypto-users-uncomfortable-after-sending-payments/
+  publication: Leap Rate
+  date: 03/14/2019
+
+- title: "Cryptocurrency adoption: FIO report finds that 75% of crypto-holders fear failure of transactions"
+  url: https://eng.ambcrypto.com/category/news/
+  publication: AMBCrypto
+  date: 03/14/2019
+
+- title: Crypto Users Are Still Scared to Pay With Bitcoin in 2019 — FIO Protocol Aims to Fix That
+  url: https://www.bitcoinisle.com/2019/03/14/crypto-users-are-still-scared-to-pay-with-bitcoin-in-2019-fio-protocol-aims-to-fix-that/
+  publication: Bitcoin Isle
+  date: 03/14/2019
+
+- title: Crypto Users Are Still Scared to Pay With Bitcoin in 2019 — FIO Protocol Aims to Fix That
+  featured: true
+  image: assets/img/press/bitcoincom-news.png
+  url: https://news.bitcoin.com/crypto-users-are-still-scared-to-pay-with-bitcoin-in-2019-fio-protocol-aims-to-fix-that/
+  publication: Bitcoin.com
+  date: 03/13/2019
+
+- title: "Foundation for Interwallet Operability: Over Half of Bitcoin Owners are Uncomfortable with Payments Process"
+  url: https://bitcoinexchangeguide.com/foundation-for-interwallet-operability-over-half-of-bitcoin-owners-are-uncomfortable-with-payments-process/
+  publication: Bitcoin Exchange Guide
+  date: 03/12/2019
+
+- title: Buying coffee with bitcoin won’t happen if usability issues aren’t fixed
+  url: https://www.crypto-reporter.com/press-releases/buying-coffee-with-bitcoin-wont-happen-if-usability-issues-arent-fixed-8562/
+  publication: Crypto Reporter
+  date: 03/12/2019
+
+- title: "Survey: 70% of Cryptocurrency Owners Rarely Use Crypto for Payments"
+  url: https://news.bitcoin.com/survey-70-of-cryptocurrency-owners-rarely-use-crypto-for-payments/
+  publication: Bitcoin.com
+  date: 03/12/2019
+
+- title: "Cryptocurrency News: 75% of Holders Worry Transactions Could Fail"
+  url: https://blockchainreporter.net/holders-worry-transactions-could-fail/
+  publication: Blockchain Reporter
+  date: 03/12/2019
+
+- title: 60% of Crypto Users are Still Scared to Make a Bitcoin Payment
+  featured: true
+  image: assets/img/press/CCN.png
+  url: https://www.ccn.com/60-of-crypto-users-are-still-scared-to-make-a-bitcoin-payment
+  publication: CCN
+  date: 03/11/2019
+
+- title: 	Buying Coffee With Bitcoin Won’t Happen If Usability Issues Aren’t Fixed
+  url: https://www.chipin.com/buying-coffee-with-bitcoin/
+  publication: ChipIn
+  date: 03/11/2019
+
+- title: 	"FIO survey on cryptocurrency usability: 75% are distrustful"
+  url: https://en.cryptonomist.ch/2019/03/12/fio-cryptocurrency-usability/
+  publication: Cryptonomist
+  date: 03/11/2019
+
+- title: Confidence Low and Transaction Errors High Among Crypto Users, Report Reveals
+  url: https://news.tunf.com/confidence-low-and-transaction-errors-high-among-crypto-users-report-reveals/045806
+  publication: Tunf News
+  date: 03/11/2019
+
+- title: Interview for the Blockchain Show
+  url: https://www.theblockchainshow.com/season2-episode-115-fio-with-david-gold-ian-mgen-live-at-hamburger-marys/
+  publication: Blockchain Show
+  date: 03/08/2019
+
+- title: Why human readable addresses alone won’t drive crypto adoption
+  url: https://www.blockchaintechnology-news.com/2019/03/04/why-human-readable-addresses-alone-wont-drive-crypto-adoption/
+  publication: Blockchain Technology News
+  date: 03/01/2019
+
+- title: Why human readable addresses alone won’t drive crypto adoption
+  url: https://www.techbullion.com/why-human-readable-addresses-alone-wont-drive-crypto-adoption/
+  publication: Tech Bullion
+  date: 02/28/2019
+
+- title: "ETH Denver: Ethereum in 2019 at ETHDENVER"
+  url: https://www.youtube.com/watch?v=z3yNRsU3NDw&feature=youtu.be
+  publication: Altcoin Buzz
+  date: 02/19/2019
+
+- title: Trust Wallet joins FIO to advance blockchain usability
+  url: https://coinrivet.com/trust-wallet-joins-fio-to-advance-blockchain-usability/
+  publication: Coin Rivet
+  date: 02/10/2019
+
+- title: Trust Wallet joins Foundation for Interwallet Operability to advance blockchain usability
+  url: https://www.crypto-reporter.com/press-releases/trust-wallet-foundation-for-interwallet-operability-8307/
+  publication: Crypto Reporter
+  date: 02/10/2019
+
+- title: The Foundation for Interwallet Operability May Soon Make Complicated Crypto Addresses Obsolete!
+  url: https://blockpublisher.com/the-foundation-for-interwallet-operability-may-soon-make-complicated-crypto-addresses-obsolete/
+  publication: Block Publisher
+  date: 02/07/2019
+
+- title: 	Trust Wallet Is Looking Forward To Advance Blockchain! But How?
+  url: https://coinpedia.org/news/trust-wallet-advance-blockchain/
+  publication: Coinpedia
+  date: 02/06/2019
+
+- title: Foundation for Interwallet Operability Adds Binance-Bought Trust Wallet to the FIO Protocol
+  url: https://bitcoinexchangeguide.com/foundation-for-interwallet-operability-adds-binance-bought-trust-wallet-to-the-fio-protocol/
+  publication: Bitcoin Exchange Guide
+  date: 02/05/2019
+
+- title: Binance-owned TrustWallet joins FIO to simplify wallet usage
+  url: https://cryptoinsider.media/binance-owned-trustwallet-joins-fio-to-simplify-wallet-usage/
+  publication: CryptoInsider
+  date: 02/05/2019
+
+- title: "Binance Exchange’s Memo to Its 400 Employees Is Clear: Build, Collaborate and Acquire"
+  url: https://bitcoinexchangeguide.com/binance-exchanges-memo-to-its-400-employees-is-clear-build-collaborate-and-acquire/
+  publication: Bitcoin Exchange Guide
+  date: 02/05/2019
+
+- title: "Binance’s Crypto Winter Strategy: Build and Beef Up Partnerships"
+  featured: true
+  image: assets/img/press/coindesk.png
+  url: https://www.coindesk.com/binances-crypto-winter-strategy-build-and-beef-up-partnerships
+  publication: Coindesk
+  date: 02/04/2019
+
+- title: Trust Wallet, Official Mobile Wallet of Cryptocurrency Exchange Binance, Joins Foundation for Interwallet Operability
+  url: https://www.crowdfundinsider.com/2019/02/144070-trust-wallet-official-mobile-wallet-of-cryptocurrency-exchange-binance-joins-foundation-for-interwallet-operability/
+  publication: Crowd Fund Insider
+  date: 02/04/2019
+
+- title: Trust Wallet, Official Mobile Wallet of Cryptocurrency Exchange Binance, Joins Foundation for Interwallet Operability
+  url: https://www.venturecanvas.com/2019/02/04/trust-wallet-official-mobile-wallet-of-cryptocurrency-exchange-binance-joins-foundation-for-interwallet-operability-venturecanvas/
+  publication: Venture Canvas
+  date: 02/04/2019
+
+- title: Trust Wallet Joins Foundation for Interwallet Operability to advance blockchain
+  url: https://www.uktech.news/featured/trust-wallet-joins-foundation-for-interwallet-operability-to-advance-blockchain-20190204
+  publication: UK Tech News
+  date: 02/04/2019
+
+- title: Binance backed Trust Wallet joins Foundation for Interwallet Operability
+  url: https://www.cryptoninjas.net/2019/02/04/binance-backed-trust-wallet-joins-foundation-for-interwallet-operability/
+  publication: CryptoNinjas
+  date: 02/04/2019
+
+- title: Trust Wallet Joins Foundation for Interwallet Operability to Advance Blockchain Usability
+  url: https://www.fintech.finance/01-news/trust-wallet-joins-foundation-for-interwallet-operability-to-advance-blockchain-usability/
+  publication: Fintech Finance
+  date: 02/04/2019
+
+- title: "Binance’s Crypto Winter Strategy: Build and Beef Up Partnerships"
+  url: https://www.yahoo.com/news/binance-crypto-winter-strategy-build-140046065.html
+  publication: Yahoo
+  date: 02/04/2019
+
+- title: FIO and the Quest to Improve Blockchain User Experience
+  url: https://www.coinstaker.com/fio-improve-user-experience/
+  publication: Coin Staker
+  date: 02/04/2019
+
+- title: Tired of Complicated Crypto Addresses? This Project Aims to Fix It
+  featured: true
+  url: https://cryptonews.com/exclusives/tired-of-complicated-crypto-addresses-this-project-aims-to-f-3285.htm
+  publication: Crypto News
+  image: assets/img/press/cryptonews.png
+  date: 02/03/2019
+
+- title: Meet the Man Who Wants to Make Crypto so Simple Your Grandma Can Use it
+  featured: true
+  image: assets/img/press/CCN.png
+  url: https://www.ccn.com/meet-man-who-make-crypto-so-simple-your-grandma-use-it/
+  publication: CCN
+  date: 02/03/2019
+
+- title: Tired of Complicated Crypto Addresses? This Project Aims to Fix It
+  url: https://cryptosumer.com/2019/02/03/tired-of-complicated-crypto-addresses-this-project-aims-to-fix-it/
+  publication: Crypto Sumer
+  date: 02/03/2019
+
+- title: Tired of Complicated Crypto Addresses? This Project Aims to Fix It
+  url: https://sijoitusrahastot.org/osta-bitcoineja/
+  publication: Bit Invader
+  date: 02/03/2019
+
+- title: The dangers of keyloggers in cryptocurrency and how to avoid them
+  url: https://www.coinrivet.com/dangers-of-keyloggers-in-cryptocurrency/
+  publication: Coin Rivet
+  date: 01/25/2019
+
+- title: Currency Hub Joins The Foundation for Interwallet Operability (FIO)
+  url: http://www.prweb.com/releases/currency_hub_joins_the_foundation_for_interwallet_operability_fio/prweb16046392.htm
+  publication: PRWeb
+  date: 01/22/2019
+
+- title: Currency Hub Joins The Foundation for Interwallet Operability (FIO)
+  url: https://coinspectator.com/
+  publication: Coin Spectator
+  date: 01/22/2019
+
+- title: "Bitcoin Interview: Edge Wallet’s Paul Puey on the Future of Money"
+  url: https://finance.yahoo.com/news/bitcoin-interview-edge-wallet-paul-010102872.html
+  publication: Yahoo Finance
+  date: 01/16/2019
+
+- title: "Bitcoin Interview: Edge Wallet’s Paul Puey on the Future of Money"
+  url: https://www.ccn.com/bitcoin-interview-edge-wallets-paul-puey-on-the-future-of-money/
+  publication: CCN
+  date: 01/16/2019
+
+- title: Mycelium becomes latest addition to foundation for interwallet operability
+  url: https://coinrivet.com/mycelium-becomes-latest-addition-to-foundation-for-interwallet-operability/
+  publication: Coin Rivet
+  date: 01/05/2019
+
+- title: Bitcoin Wallet Mycelium is the Latest to Join the Foundation for Interwallet Operability
+  url: https://coinjournal.net/news/bitcoin-wallet-mycelium-is-the-latest-to-join-the-foundation-for-interwallet-operability/
+  publication: Coin Journal
+  date: 01/05/2019
+
+- title: Mycelium Becomes the Latest Crypto Wallet to Join the Foundation for Interwallet Operability (FIO)
+  url: https://btcmanager.com/mycelium-crypto-wallet-joins-fio-operability-foundation/
+  publication: BTC Manager
+  date: 01/05/2019
+
+- title: Mycelium adopts FIO protocol
+  url: https://www.uktech.news/news/mycelium-adopts-fio-protocol-20190104
+  publication: UK Tech News
+  date: 01/04/2019
+
+- title: Mycelium Becomes Latest Addition to Foundation for Interwallet Operability
+  url: https://techbuzzireland.com/2019/01/02/mycelium-becomes-latest-addition-to-foundation-for-interwallet-operability-fio-cyrptowallet/
+  publication: Techbuzz Ireland
+  date: 01/03/2019
+
+- title: Mycelium Becomes Latest Addition to Foundation for Interwallet Operability
+  url: https://www.fintech.finance/01-news/mycelium-becomes-latest-addition-to-foundation-for-interwallet-operability/
+  publication: Fintech Finance
+  date: 01/03/2019
+
+- title: Mycelium Becomes Latest Addition to Foundation for Interwallet Operability
+  url: https://www.chipin.com/mycelium-joins-foundation-for-interwallet-operability/
+  publication: ChipIn
+  date: 01/03/2019
+
+- title: Mycelium Becomes Latest Addition to Foundation for Interwallet Operability
+  url: https://www.crypto-reporter.com/press-releases/mycelium-foundation-for-interwallet-operability-7933/
+  publication: Crypto Reporter
+  date: 01/03/2019
+
+- title: "The Blockchain Show: Interview"
+  url: https://www.youtube.com/watch?v=O6jGxNyhnKA
+  publication: The Blockchain Show
+  date: 01/03/2019
+
+- title: Mycelium Joins The Foundation for Interwallet Operability
+  url: https://www.ccn.com/mycelium-joins-the-foundation-for-interwallet-operability/
+  publication: CCN
+  date: 01/03/2019
+
+- title: MyCelium joins hands with Foundation for Interwallet Operability
+  url: https://www.thecryptoupdates.com/mycelium-joins-hands-with-foundation-for-interwallet-operability/
+  publication: The Crypto Updates
+  date: 01/03/2019
+
+- title: Cryptocurrency wallet app Mycelium joins Foundation for Interwallet Operability
+  url: https://www.cryptoninjas.net/2019/01/02/cryptocurrency-wallet-app-mycelium-joins-foundation-for-interwallet-operability/
+  publication: CryptoNinjas
+  date: 01/02/2019
+
+- title: Mycelium Becomes Latest Addition To Foundation For Interwallet Operability
+  url: https://paymentweek.com/2019-1-2-mycelium-becomes-latest-addition-foundation-interwallet-operability/
+  publication: Payment Week
+  date: 01/02/2019
+
+- title: Cryptocurrency wallet app Mycelium joins Foundation for Interwallet Operability
+  featured: true
+  image: assets/img/press/cryptoninjas.png
+  url: https://www.cryptoninjas.net/2019/01/02/cryptocurrency-wallet-app-mycelium-joins-foundation-for-interwallet-operability/
+  publication: CryptoNinjas
+  date: 01/02/2019
+
+- title: Blockchain And Cryptocurrency 2019 Predictions – Vol. IV
+  featured: true
+  image: assets/img/press/blocktribune.png
+  url: https://blocktribune.com/blockchain-and-cryptocurrency-2019-predictions-vol-iv/
+  publication: BlockTribune
+  date: 12/23/2018
+
+- title: "Foundation For Interwallet Operability (FIO): Blockchain Asset Protocol?"
+  url: https://bitcoinexchangeguide.com/foundation-for-interwallet-operability-fio/
+  publication: Bitcoin Exchange Guide
+  date: 12/05/2018
+  
+- title: "Honoring Satoshi's Vision: Toward a Better Crypto User Experience"
+  featured: true
+  image: assets/img/press/bitcoincom-news.png
+  url: https://news.bitcoin.com/honoring-satoshi-through-better-crypto-ux/
+  publication: Bitcoin.com
+  date: 11/29/2018
+
+- title: Tech VC Launches Protocol for Interwallet Operability
+  featured: true
+  image: assets/img/press/finews_asia.png
+  url: https://www.finews.asia/finance/27835-tech-vc-launches-protocol-for-interwallet-operability
+  publication: Finews Asia
+  date: 11/28/2018
+
+- title: Will the Foundation for Interwallet Operability (FIO) Help Scale Crypto?
+  featured: true
+  image: assets/img/press/coin-central.png
+  url: https://coincentral.com/foundation-for-interwallet-operability-fio-david-gold/
+  publication: CoinCentral
+  date: 11/28/2018
+
+- title: Veteran tech VC heads up Foundation for Interwallet Operability and FIO Protocol
+  url: https://coinrivet.com/veteran-tech-vc-heads-up-foundation-for-interwallet-operability-and-fio-protocol/
+  publication: Coin Rivet
+  date: 11/28/2018
+
+- title: Foundation for Interwallet Operability (FIO) and FIO Protocol launches
+  url: https://www.cryptoninjas.net/2018/11/27/foundation-for-interwallet-operability-fio-and-fio-protocol-launches/
+  publication: CryptoNinjas
+  date: 11/27/2018
+
+- title: Fixing wallet usability can help save us from Crypto Winter, says veteran tech VC
+  featured: true
+  image: assets/img/press/telemedia.png
+  url: https://www.telemediaonline.co.uk/fixing-wallet-usability-can-help-save-us-from-crypto-winter-says-veteran-tech-vc/
+  publication: Telemedia Online
+  date: 11/27/2018
+
+- title: "Veteran Tech VC: ‘Fixing Wallet Usability’ Can Help Save Us From Crypto Winter"
+  url: https://paymentweek.com/2018-11-27-veteran-tech-vc-fixing-wallet-usability-can-help-save-us-crypto-winter/
+  publication: Payment Week
+  date: 11/27/2018
+
+- title: New Foundation to Focus on Crypto Wallet Interoperability
+  url: https://idelto.com/2018/11/new-foundation-to-focus-on-crypto-wallet-interoperability/
+  publication: Idelto
+  date: 11/27/2018
+
+- title: New Foundation to Focus on Crypto Wallet Interoperability
+  url: https://www.nasdaq.com/article/new-foundation-to-focus-on-crypto-wallet-interoperability-cm1060755
+  publication: Nasdaq
+  date: 11/27/2018
+
+- title: New Foundation to Focus on Crypto Wallet Interoperability
+  url: https://finance.yahoo.com/news/foundation-focus-crypto-wallet-interoperability-235255579.html?guccounter=1
+  publication: Yahoo Finance
+  date: 11/27/2018
+
+- title: 	New FIO Protocol For Wallet Interoperability Builds Off Ethereum ENS Custom Addresses
+  url: https://www.cryptostache.com/2018/11/27/cryptostache-eth-new-fio-protocol-for-wallet-interoperability-builds-off-ethereum-ens-custom-addresses/
+  publication: Cryptostache
+  date: 11/27/2018
+
+- title: New Foundation to Focus on Crypto Wallet Interoperability
+  url: https://coinotizia.com/new-foundation-to-focus-on-crypto-wallet-interoperability/
+  publication: Coinotizia
+  date: 11/27/2018
+
+- title: Foundation for Interwallet Operability (FIO) and FIO Protocol launches
+  url: http://www.xbt.money/foundation-for-interwallet-operability-fio-and-fio-protocol-launches/
+  publication: XBT.Money
+  date: 11/27/2018
+
+- title: "Veteran Tech VC: ‘Fixing Wallet Usability’ can help save us from Crypto Winter"
+  url: https://www.crypto-reporter.com/press-releases/veteran-tech-vc-fixing-wallet-usability-can-help-save-us-from-crypto-winter-6969/
+  publication: Crypto Reporter
+  date: 11/27/2018
+
+- title: Foundation for Interwallet Operability (FIO) and FIO Protocol launches
+  featured: true
+  image: assets/img/press/cryptoninjas.png
+  url: https://www.cryptoninjas.net/2018/11/27/foundation-for-interwallet-operability-fio-and-fio-protocol-launches/
+  publication: Bitcoin Exchange Guide
+  date: 11/27/2018
+
+- title: New Foundation Wants To Standardize Inter-Wallet Interoperability
+  featured: true
+  image: assets/img/press/coinpedia.png
+  url: https://coinpedia.org/news/new-foundation-for-inter-wallet-operability/
+  publication: Coin Pedia
+  date: 11/26/2018
+
+- title: New Foundation to Focus on Crypto Wallet Interoperability
+  featured: true
+  image: assets/img/press/bitcoin-magazine.png
+  url: https://bitcoinmagazine.com/articles/new-foundation-focus-crypto-wallet-interoperability
+  publication: Bitcoin Magazine
+  date: 11/26/2018
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
