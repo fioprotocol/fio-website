@@ -1,0 +1,43 @@
+en:
+  newsletter_heading:                    "Keep in Touch"
+  newsletter_description:                "Sign up for our monthly newsletter and join us on social!"
+  newsletter_submit:                     "Summit"
+  newsletter_email:                      "Enter Email Address"
+  footer_link:                           "Privacy Policy"
+  cookies_text:                           "We use cookies to ensure that we give you the best experience on our website. If you continue to use this site we will assume that you are happy with it."
+  cookies_button:                         "I Agree"
+
+zh:
+  newsletter_heading:                    "保持联系"
+  newsletter_description:                "订阅我们的每月通讯，并加入我们的社交网络！"
+  newsletter_submit:                     "Summit"
+  newsletter_email:                      "Enter Email Address"
+
+ja:
+  newsletter_heading:                    "メールマガジンの登録"
+  newsletter_description:                "毎月配信のニュースレターやソーシャルメディアで最新情報を発信しています"
+  newsletter_submit:                     "Summit"
+  newsletter_email:                      "Enter Email Address"
+
+ko:
+  newsletter_heading:                    "계속 연락해요"
+  newsletter_description:                "월간 뉴스레터에 등록하고 소셜 미디어에 참여하세요!"
+  newsletter_submit:                     "Summit"
+  newsletter_email:                      "Enter Email Address"
+
+es:
+  newsletter_heading:                    "Mantenerse en contacto"
+  newsletter_description:                "¡Regístrese para nuestro boletín mensual y únase a nosotros en redes!"
+  newsletter_submit:                     "Summit"
+  newsletter_email:                      "Enter Email Address"
+
+ru:
+  newsletter_heading:                    "Оставайтесь на связи"
+  newsletter_description:                "Подпишитесь на нашу ежемесячную рассылку новостей и присоединяйтесь к нам в социальных сетях!"
+  newsletter_submit:                     "Summit"
+  newsletter_email:                      "Enter Email Address"
+
+
+
+
+
