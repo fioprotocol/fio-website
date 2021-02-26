@@ -28,4 +28,7 @@ trading:
     - image: /assets/img/fio-token/bithumb.png
       url: https://www.bithumb.pro/en-us
       alt: Bithumb Logo
+    - image: /assets/img/fio-token/whitebit.png
+      url: https://whitebit.com/
+      alt: WhiteBIT Logo
 ---
